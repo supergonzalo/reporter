@@ -63,11 +63,11 @@ sub guardar {
         $m{"AMENITIES"}= join("|", map("$_=$margs{$_}",keys(%margs)));
 
         my %pk;
-        @pk{"NOMBRE","T"}= @m{"NOMBRE","T"};
+        @pk{"ID","T"}= @m{"ID","T"};
 
 
         my %pk;
-        @pk{"NOMBRE","T"}= @m{"NOMBRE","T"};
+        @pk{"ID","T"}= @m{"ID","T"};
 	logm("DBG",9,"--Linea a escribir en db #1",%m);
         my $r= dbSet(\%m, \%pk, $txMy);
 
@@ -80,9 +80,7 @@ sub guardar {
 
 logm("DBG",9,"Comienzo de mainloop",);
 
-$MensajeModelo= {'T' => 'deptos', 'NOMBRE' => 'PPPPPPP', 'PLANTAS' => 'PPP','UNIDADES_FUNCIONALES' => 'P','PISO' => 'PPPPPP','METROS_CUBIERTOS' => 'PPPPPPPPP','METROS_DESCUBIERTOS' => 'PPPPP','COCHERA' => 'PPPPPPP','METROS_TOTALES' => 'PPPPPP','VALOR' => 'PPPP','AMENITIES' => 'PPP'};
-
-
+$MensajeModelo= {'T' => 'deptos', NOMBRE => 'PPPPPPP', 'PLANTAS' => 1,'UNIDADES_FUNCIONALES' => 1,'PISO' => 1,'METROS_CUBIERTOS' => 1,'METROS_DESCUBIERTOS' => 1,'COCHERA' => 1,'METROS_TOTALES' => 1,'VALOR' => 1,'AMENITIES' => 'PPP','ID'=>1,'METROS_COMUN'=>1 };
 
 dbSet($MensajeModelo,$MensajeModelo);
 dbDel($MensajeModelo);

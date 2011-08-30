@@ -6,13 +6,17 @@ use AppMercado;
 logm("DBG",9,"Comienzo de reporte",);
 
 my $tx=dbTxStart();
-dbFindFold('T="deptos"',,[],$tx,\&formatData);
+dbFindFold('T="deptos"',,['NOMBRE'],,,$tx,\&formatData);
 dbTxCommit($tx,0,'OK');
 
 
 sub formatData {
         my ($dr)= @_;
 	my $d=$dr->{'DEPTOS'}; #$d es un hash del depto
-	logm("R",1,"KEYS #1",$d);	
-	}
+	logm("R",1,"KEYS #1",$d->{'NOMBRE'});	
+	
+
+
+
+}
 
