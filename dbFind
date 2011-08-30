@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+
+#INFO: interfase linea de comando para dbFind
+
+use AppMercado;
+
+if ($ENV{DB}) { $DB_CX_DEFAULT= $ENV{DB}; }
+
+my $exp= shift(@ARGV);
+my $orderBy= [@ARGV];
+dbFindFold($exp,$q,$orderBy,\&kvPrintTsv,);
+

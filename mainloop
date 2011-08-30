@@ -1,0 +1,90 @@
+#!/usr/bin/perl
+
+use AppMercado;
+use UUID::Tiny;
+
+
+#Lee un csv, genera la estructura de datos y genera un reporte de mercado
+
+#S: persistencia (conseguir datos, registrar resultado)
+sub splitTsvLine {
+        my ($l)= @_;
+        $l=~ s/[\r\n]*$//g;          #A. Quitar enter del final
+        $l=~ s/"//g;                 #A. Quitar comillas molestas
+        $l=~ s/^#//;
+        split(/ *\t */,$l);
+}
+
+sub withTsvData {
+        my ($fun)= @_;
+#D: invoca $fun con un hash nombre col -> valor para cada fila de un archivo TSV
+        my $l= <>;
+        my @COLS= splitTsvLine(uc($l));
+        while ($l= <>) {
+                unless ($l=~/#+/){ #A. El registro no es un comentario 
+                        my %row;
+                        @row{@COLS}=splitTsvLine(uc($l));
+                        logm("DBG",9,"TSV READ #1",\%row);
+                        &$fun(\%row);
+                }
+        }
+}
+
+sub registrarDato {
+        my ($linea)= @_; #Linea es una referencia a hash
+        if (lineaValida($linea)) {
+                logm("DBG",9,"Linea valida #1",\$linea);
+		guardar($linea);
+        }
+	else {
+		logm("RPT",9,"Linea invalida #1",\$linea);
+	}
+}
+
+sub lineaValida {
+	return 1;
+}
+sub guardar {
+#D. Escribe linea en la base de datos. 
+        my ($msg)=@_;
+
+        my %m= ( 'T' => 'deptos' ); 
+
+        my %margs= ();
+        foreach my $k (keys(%$msg)) {
+                if (exists($$MensajeModelo{$k})) { #A: es columna requerida
+                        $m{$k}= $$msg{$k};
+                }
+                else { #A: es amenitie
+                        $margs{$k}= $$msg{$k};
+                }
+        }
+
+        $m{"AMENITIES"}= join("|", map("$_=$margs{$_}",keys(%margs)));
+
+        my %pk;
+        @pk{"NOMBRE","T"}= @m{"NOMBRE","T"};
+
+
+        my %pk;
+        @pk{"NOMBRE","T"}= @m{"NOMBRE","T"};
+	logm("DBG",9,"--Linea a escribir en db #1",%m);
+        my $r= dbSet(\%m, \%pk, $txMy);
+
+}
+
+
+
+
+#S: Main
+
+logm("DBG",9,"Comienzo de mainloop",);
+
+$MensajeModelo= {'T' => 'deptos', 'NOMBRE' => 'PPPPPPP', 'PLANTAS' => 'PPP','UNIDADES_FUNCIONALES' => 'P','PISO' => 'PPPPPP','METROS_CUBIERTOS' => 'PPPPPPPPP','METROS_DESCUBIERTOS' => 'PPPPP','COCHERA' => 'PPPPPPP','METROS_TOTALES' => 'PPPPPP','VALOR' => 'PPPP','AMENITIES' => 'PPP'};
+
+
+
+dbSet($MensajeModelo,$MensajeModelo);
+dbDel($MensajeModelo);
+withTsvData(\&registrarDato);
+

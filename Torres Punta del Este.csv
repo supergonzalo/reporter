@@ -1,0 +1,32 @@
+NOMBRE	PLANTAS	UNIDADES_FUNCIONALES	Piscina interna	Piscina externa	Piscina de nado continuo	Snack bar	Gimnasio	Sauna	Playroom	Cyber	Microcine	Parrilla/quincho	Cancha de tenis	Cancha futbol	Jaula de golf	Sistema de seguridad	Sistema de incendios	Grupo electrogeno	Control de accesos	Servicio de playa	Living	Wi-Fi	Business Center	Lavadero comun	Bauleras	Portero visor	Calefaccion de agua solar	Generadores eolicos	Club House	Bicisenda	Guarderia de bicicletas	PISO	METROS_CUBIERTOS	METROS_DESCUBIERTOS	COCHERA	METROS_TOTALES	VALOR
+Botavara	10	92	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N
+Onyx	23	135	SI	SI	N	N	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	SI	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N
+Forest Tower	16	128	SI	SI	N	N	SI	SI	SI	SI	N	SI	N	N	N	SI	N	N	SI	SI	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N
+Arenas del mar 2	14	112	SI	SI	N	N	SI	N	SI	SI	N	N	N	N	N	N	N	N	N	SI	N	SI	N	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N
+Imperiale	N	N	SI	SI	N	SI	SI	SI	SI	N	SI	SI	SI	SI	N	SI	N	N	N	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N
+Alexander Boulevard	24	96	SI	SI	N	N	SI	SI	N	N	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N
+Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	19	84.36	26.93	N	111.29	390000
+Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	20	84.36	26.93	N	111.29	400000
+Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	21	84.36	26.93	N	111.29	408000
+Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	22	84.36	26.93	N	111.29	416000
+Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	23	77	15	N	98.08	383000
+Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	22	77	15	N	98.08	378000
+Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	23	82.7	10.88	N	93.58	411000
+Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	23	77.77	15.31	N	93.08	383000
+Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	23	82.7	10.88	N	93.58	411000
+Miami Boulevard	24	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	N	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	11	84.36	26.93	N	111.29	425000
+Miami Boulevard	24	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	N	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	22	84.36	26.93	N	111.29	437000
+Torre Alexander	15	N	SI	SI	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N
+Gala Vista	23	N	SI	SI	N	N	SI	SI	SI	N	SI	N	N	N	N	SI	N	N	N	SI	N	N	SI	SI	N	N	N	N	N	N	N	N	N	N	N	N	N
+Ocean Drive	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	N	SI	N	N	N	N	N	SI	N	SI	N	N	N	N	N	SI	SI	N	N	N	N	N	N	N
+Torre Bellagio	20	146	SI	SI	N	N	SI	SI	SI	N	N	SI	SI	N	N	N	N	N	N	N	SI	N	SI	SI	N	N	N	N	N	N	N	N	N	N	N	N	N
+Wind Tower	24	190	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	SI	SI	N	N	SI	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N
+Icon Brava Tower	18	N	SI	SI	SI	N	SI	SI	SI	N	N	SI	N	N	N	SI	SI	N	N	N	SI	SI	N	N	SI	N	SI	SI	N	N	N	N	N	N	N	N	N
+Summer Tower	19	102	N	SI	N	N	SI	SI	N	N	N	SI	N	N	N	SI	N	SI	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N
+Sol y Luna	11	60	SI	N	N	SI	SI	SI	N	N	N	SI	N	N	N	SI	N	N	SI	SI	N	SI	N	SI	N	N	N	N	N	N	SI	N	N	N	N	N	N
+Artower	22	N	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N
+Moon punta	9	72	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N
+Edificio Chronos	14	140	SI	SI	N	N	SI	SI	SI	N	SI	SI	N	N	N	SI	N	SI	SI	SI	N	SI	N	SI	N	N	N	N	N	N	SI	N	N	N	N	N	N
+#Las lineas de comentario empiezan con numeral “#”																																					
+#Los decimales se marcan con punto “.” no usar comas!!!!!																																					
+#Los encabezados de columna de amenities deben comenzar con Asterisco “*”																																					

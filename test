@@ -1,0 +1,7 @@
+#!/bin/sh
+
+rm AppMercado.log
+rm app.deptos.db
+perl mainloop Torres\ Punta\ del\ Este.csv
+#./dbFind 't="deptos"'
+./report | cat - >>  report.txt
