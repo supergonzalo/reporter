@@ -35,11 +35,13 @@ sub registrarDato {
         if (lineaValida($linea)) {
                 logm("DBG",9,"Linea valida #1",\$linea);
 		guardar($linea);
+		#escribir_informe($linea);
         }
 	else {
 		logm("RPT",9,"Linea invalida #1",\$linea);
 	}
 }
+
 
 sub lineaValida {
 	return 1;

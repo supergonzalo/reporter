@@ -5,18 +5,51 @@ use AppMercado;
 
 logm("DBG",9,"Comienzo de reporte",);
 
+my $mem={};
 my $tx=dbTxStart();
-dbFindFold('T="deptos"',,['NOMBRE'],,,$tx,\&formatData);
+print "<HTML><BODY>";
+dbFindFold('T="deptos"',{},['NOMBRE'],\&loadMem);
 dbTxCommit($tx,0,'OK');
 
 
-sub formatData {
+foreach $depto (keys %mem) {
+print "<p>Departamento: $depto";
+print "<p>Amenities:";
+print $mem{$depto}->{'AMENITIES'};
+}
+
+print "</BODY></HTML>";
+
+
+sub ind_report {
+	my ($val,$dr)=@_;
+	my $args={};
+	$args{'EDIFICIO'}=$val;
+	$args{'AMENITIES'}=join('<li>',@{$dr->{'AMENITIES'}});
+	my $template="<p><b>Edificio: $args{'EDIFICIO'}</b><p><b>Amenities:</b><ul><li>$args{'AMENITIES'}</ul>\n\n";
+	print $template;
+}
+
+
+sub loadMem {
         my ($dr)= @_;
-	my $d=$dr->{'DEPTOS'}; #$d es un hash del depto
-	logm("R",1,"KEYS #1",$d->{'NOMBRE'});	
+	my $amenities={};
+	my $temp={};
+	my %d=%{$dr->{'DEPTOS'}}; #$d es un hash del depto
+	unless (exists($mem{$d{'NOMBRE'}}->{'AMENITIES'})) {
+
+		my %args= (split(/[\=\|]/,$d{'AMENITIES'}));
+		while((my $key, my $value) = each(%args)) {
+			if($value eq 'SI'){
+				$amenities{$key}= $value; 
+			}
+		}
 	
+	$temp{'AMENITIES'}= join('<li>',keys (%amenities));
+	$mem{$d{'NOMBRE'}}->{'AMENITIES'}=$temp{'AMENITIES'};
+ 	}
 
-
-
+	$mem{$d{'NOMBRE'}}->{'DEPARTAMENTO'}->{$d{'ID'}}=\{$d{'ID'},$d{'PISO'}};
+	#logm("LOOP",9,"DATA: #1",\%mem);
 }
 
