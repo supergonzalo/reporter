@@ -1,174 +1,184 @@
-ID	NOMBRE	PLANTAS	UNIDADES_FUNCIONALES	*Piscina interna	*Piscina externa	*Piscina de nado continuo	*Snack bar	*Gimnasio	*Sauna	*Playroom	*Cyber	*Microcine	*Parrilla/quincho	*Cancha de tenis	*Cancha futbol	*Jaula de golf	*Sistema de seguridad	*Sistema de incendios	*Grupo electrogeno	*Control de accesos	*Servicio de playa	*Living	*Wi-Fi	*Business Center	*Lavadero comun	*Bauleras	*Portero visor	*Calefaccion de agua solar	*Generadores solares	*Generadores eolicos	*Club House	*Bicisenda	*Guarderia de bicicletas	PISO	METROS_CUBIERTOS	METROS_DESCUBIERTOS	METROS_COMUN	COCHERA	METROS_TOTALES	VALOR
-1	Botavara	10	96	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	1	53.52	4	38.72	N	96.24	148842
-2	Botavara	10	96	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	2	53.52	4	38.72	N	96.24	151480
-3	Botavara	10	96	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	3	53.52	4	38.72	N	96.24	154170
-4	Botavara	10	96	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	3	48.9	8.56	38.9	N	96.36	165570
-5	Botavara	10	96	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	4	78.19	5.34	45.42	N	128.95	224895
-6	Botavara	10	96	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	4	75.3	14.46	46.98	N	136.74	240516
-7	Botavara	10	96	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	4	78.19	5.34	45.42	N	128.95	224895
-8	Botavara	10	96	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	5	78.19	5.34	45.42	N	128.95	224895
-9	Botavara	10	96	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	6	78.19	5.34	45.42	N	128.95	229054
-10	Botavara	10	96	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	7	78.19	5.34	45.42	N	128.95	233158
-11	Botavara	10	96	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	8	78.19	5.34	45.42	N	128.95	237262
-12	Botavara	10	96	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	9	104.58	11.36	53.42	N	169.36	374319
-13	Botavara	10	96	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	9	94.8	20.35	53.32	N	168.47	350929
-14	Botavara	10	96	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	10	94.8	20.35	53.32	N	168.47	360747
-15	Tango Punta	4	28	SI	SI	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	1	58	9.2			67.2	152778
-16	Tango Punta	5	28	SI	SI	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	2	56.8	8.2			64.2	150944
-17	Tango Punta	6	28	SI	SI	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	3	49	10			59	146667
-18	Moon punta	9	72	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	1	95.4	22.5	68.03	12.5	198.43	337640
-19	Moon punta	9	72	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	2	71.2	10.7	47.26	12.5	141.66	252428
-20	Moon punta	9	72	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	3	95.4	22.5	68.03	12.5	198.43	346.081
-21	Moon punta	9	72	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	3	71.2	10.7	47.26	12.5	141.66	258585
-22	Moon punta	9	72	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	3	95.4	22.5	68.03	12.5	198.43	354522
-23	Moon punta	9	72	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	3	53	7.2	34.74	10.5	105.44	203095
-24	Moon punta	9	72	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	3	49	9.4	33.7	10.5	102.6	171324
-25	Moon punta	9	72	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N		N	4	95.4	22.5	68.03	12.5	198.43	362963
-26	Moon punta	9	72	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	5	49	9.4	33.7	10.5	102.6	179482
-27	Moon punta	9	72	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	8	53	7.2	34.74	12.5	107.44	227273
-28	Moon punta	9	72	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	8	95.4	22.5	68.03	12.5	198.43	396727
-29	Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	19	84.36	26.93		N	111.29	390000
-30	Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	20	84.36	26.93		N	111.29	400000
-31	Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	21	84.36	26.93		N	111.29	408000
-32	Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	22	84.36	26.93		N	111.29	416000
-33	Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	23	77	15		N	98.08	383000
-34	Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	22	77	15		N	98.08	378000
-35	Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	23	82.7	10.88		N	93.58	411000
-36	Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	23	77.77	15.31		N	93.08	383000
-37	Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	23	82.7	10.88		N	93.58	411000
-38	Miami Boulevard	24	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	N	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	11	84.36	26.93		N	111.29	425000
-39	Miami Boulevard	24	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	N	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	22	84.36	26.93		N	111.29	437000
-40	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	1	74.53	12.86	6.42	12.5	108.81	292463
-41	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	2	74.53	12.86	6.42	12.5	108.81	296663
-42	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	3	74.53	12.86	6.42	12.5	108.81	301013
-43	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	4	74.53	12.86	6.42	12.5	108.81	305232
-44	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	5	74.53	12.86	6.42	12.5	108.81	310232
-45	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	6	74.53	12.86	6.42	12.5	108.81	315232
-46	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	7	74.53	12.86	6.42	12.5	108.81	322732
-47	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	8	74.53	12.86	6.42	12.5	108.81	331732
-48	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	1	55.87	4.68	4.82	10.125	77.75	201230
-49	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	2	55.87	4.68	4.82	10.125	77.15	203230
-50	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	3	55.87	4.68	4.82	10.125	76.55	206230
-51	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	4	55.87	4.68	4.82	10.125	75.95	209230
-52	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	5	55.87	4.68	4.82	10.125	75.35	213230
-53	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	6	55.87	4.68	4.82	10.125	74.75	217230
-54	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	7	55.87	4.68	4.82	10.125	74.15	222230
-55	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	8	55.87	4.68	4.82	10.125	73.55	228230
-56	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	9	55.87	4.68	4.82	10.125	72.95	235230
-57	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI	10	55.87	4.68	4.82	10.125	72.35	243230
-58	Be Punta	10	70	SI	SI	N	N	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	1	103.75	28	20.68		156.03	308000
-59	Be Punta	11	71	SI	SI	N	N	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	2	103.75	28	20.68		156.03	319000
-60	Be Punta	12	72	SI	SI	N	N	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	3	103.75	28	20.68		156.03	326000
-61	Be Punta	13	73	SI	SI	N	N	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	4	103.75	28	20.68		156.03	336000
-62	Be Punta	14	74	SI	SI	N	N	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	5	103.75	28	20.68		156.03	352000
-63	Be Punta	15	75	SI	SI	N	N	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	6	103.75	28	20.68		156.03	362000
-64	Be Punta	16	76	SI	SI	N	N	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	9	103.75	28	20.68		156.03	380000
-65	Be Punta	17	77	SI	SI	N	N	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	1	64.2	17	12.41		93.61	210000
-66	Be Punta	18	78	SI	SI	N	N	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	2	64.2	17	12.41		93.61	224000
-67	Be Punta	19	79	SI	SI	N	N	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	7	64.2	17	12.41		93.61	263000
-68	Be Punta	20	80	SI	SI	N	N	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	8	65.2	18	13.41		94.61	283000
-69	Be Punta	21	81	SI	SI	N	N	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	9	66.2	19	14.41		95.61	352000
-70	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	1	77	13	19.21	12.5	121.71	240900
-71	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	2	77	13	19.21	12.5	121.71	244514
-72	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	3	77	13	19.21	12.5	121.71	248127
-73	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	4	77	13	19.21	12.5	121.71	151741
-74	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	5	77	13	19.21	12.5	121.71	255354
-75	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	6	77	13	19.21	12.5	121.71	258968
-76	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	7	77	13	19.21	12.5	121.71	262581
-77	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	8	77	13	19.21	12.5	121.71	266195
-78	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	9	77	13	19.21	12.5	121.71	269808
-79	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	10	77	13	19.21	12.5	121.71	273422
-80	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	11	77	13	19.21	12.5	121.71	277035
-81	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	12	77	13	19.21	12.5	121.71	280649
-82	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	13	77	13	19.21	12.5	121.71	284262
-83	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	14	77	13	19.21	12.5	121.71	287876
-84	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	16	77	13	19.21	12.5	121.71	410000
-85	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	1	64	6	14.8	10.5	95.3	181500
-86	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	2	64	6	14.8	10.5	95.3	184223
-87	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	3	64	6	14.8	10.5	95.3	186945
-88	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	4	64	6	14.8	10.5	95.3	189668
-89	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	5	64	6	14.8	10.5	95.3	192390
-90	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	6	64	6	14.8	10.5	95.3	195113
-91	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	7	64	6	14.8	10.5	95.3	197835
-92	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	8	64	6	14.8	10.5	95.3	200558
-93	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	9	64	6	14.8	10.5	95.3	203280
-94	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	10	64	6	14.8	10.5	95.3	206003
-95	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	11	64	6	14.8	10.5	95.3	208725
-96	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	12	64	6	14.8	10.5	95.3	211448
-97	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	13	64	6	14.8	10.5	95.3	214170
-98	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	14	64	6	14.8	10.5	95.3	216893
-99	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	15	64	6	14.8	10.5	95.3	234400
-100	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	16	64	6	14.8	10.5	95.3	202675
-101	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	1	62	6	13.95	12.5	94.95	181500
-102	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	2	62	6	13.95	12.5	94.95	184223
-103	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	3	62	6	13.95	12.5	94.95	186945
-104	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	4	62	6	13.95	12.5	94.95	189668
-105	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	5	62	6	13.95	12.5	94.95	192390
-106	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	6	62	6	13.95	12.5	94.95	195113
-107	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	7	62	6	13.95	12.5	94.95	197835
-108	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	8	62	6	13.95	12.5	94.95	200558
-109	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	9	62	6	13.95	12.5	94.95	203280
-110	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	10	62	6	13.95	12.5	94.95	206003
-111	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	11	62	6	13.95	12.5	94.95	208725
-112	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	12	62	6	13.95	12.5	94.95	211448
-113	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	13	62	6	13.95	12.5	94.95	214170
-114	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	14	62	6	13.95	12.5	94.95	216893
-115	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	2	98.3	22	14.7		135	343000
-116	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	3	98.3	22	14.7		135	347000
-117	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	4	98.3	22	14.7		135	352000
-118	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	2	98.3	22	14.7		135	372000
-119	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	3	98.3	22	14.7		135	377000
-120	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	4	98.3	22	14.7		135	382000
-121	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	1	61.8	4.2	8		74	185000
-122	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	2	61.8	4.2	8		74	188000
-123	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	3	61.8	4.2	8		74	191000
-124	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	4	61.8	4.2	8		74	194000
-125	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	5	61.8	4.2	8		74	197000
-126	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	2	65	6.5	8.5		80	220000
-127	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	3	65	6.5	8.5		80	223000
-128	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	4	65	6.5	8.5		80	226000
-129	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	5	65	6.5	8.5		80	229000
-130	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	6	65	6.5	8.5		80	231000
-131	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	4	49.62		8.97		58.6	163000
-132	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	5	50.62		9.97		59.6	168000
-133	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	6	51.62		10.97		60.6	173000
-134	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	7	52.62		11.97		61.6	178000
-135	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	20	103.5	12	16		131.8	421000
-136	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	19	103.5	12	16		131.8	415000
-137	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	18	103.5	12	16		131.8	409000
-138	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	9	103.5	12	16		131.8	361000
-139	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	19	75.7	7.6	11.4		94.7	297000
-140	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	18	75.7	7.6	11.4		94.7	293000
-141	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	17	75.7	7.6	11.4		94.7	289000
-142	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	19	79.4	8.2	12		99.6	319000
-143	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	18	80.4	9.2	13		100.6	315000
-144	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	17	81.4	10.2	14		101.6	311000
-145	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	13	82.4	11.2	15		102.6	307000
-146	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	11	83.4	12.2	16		103.6	288000
-147	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	19	55.5	6.7	9		71.2	249000
-148	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	18	55.5	6.7	9		71.2	246000
-149	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	17	55.5	6.7	9		71.2	243000
-150	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	16	55.5	6.7	9		71.2	240000
-151	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI	11	55.5	6.7	9		71.2	225000
-152	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	1	73.63	24.22	10.74	12.5	107.57	278540
-153	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	5	73.63	24.22	10.74	12.5	107.57	316523
-154	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	7	73.63	24.22	10.74	12.5	107.57	329183
-155	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	11	73.63	24.22	10.74	12.5	107.57	354505
-156	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	2	45.7	10.4	6.9	12.5	63.16	183564
-157	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	4	45.7	10.4	6.9	12.5	63.16	195536
-158	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	5	45.7	10.4	6.9	12.5	63.16	199526
-159	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	7	45.7	10.4	6.9	12.5	63.16	207507
-160	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	10	45.7	10.4	6.9	12.5	63.16	219479
-161	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	2	45.85	10.4	6.9	10.13	63.16	179121
-162	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	4	45.85	10.4	6.9	10.13	63.16	190802
-163	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	6	45.85	10.4	6.9	10.13	63.16	198590
-164	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	7	45.85	10.4	6.9	10.13	63.16	202484
-165	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	9	45.85	10.4	6.9	10.13	63.16	210272
-166	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	11	45.85	10.4	6.9	10.13	63.16	218060
-167	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	13	45.85	10.4	6.9	10.13	63.16	233636
-168	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	1	73.54	6.14	9.97	12.5	89.65	237145
-169	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	7	73.54	6.14	9.97	12.5	89.65	280262
-170	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	9	73.54	6.14	9.97	12.5	89.65	291041
-171	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	10	73.54	6.14	9.97	12.5	89.65	296431
-172	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	12	73.54	6.14	9.97	12.5	89.65	312600
-173	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	13	73.54	6.14	9.97	12.5	89.65	323379
+ID	TIPO	NOMBRE	PLANTAS	UNIDADES_FUNCIONALES	*Piscina interna	*Piscina externa	*Piscina de nado continuo	*Snack bar	*Gimnasio	*Sauna	*Playroom	*Cyber	*Microcine	*Parrilla/quincho	*Cancha de tenis	*Cancha futbol	*Jaula de golf	*Sistema de seguridad	*Sistema de incendios	*Grupo electrogeno	*Control de accesos	*Servicio de playa	*Living	*Wi-Fi	*Business Center	*Lavadero comun	*Bauleras	*Portero visor	*Calefaccion de agua solar	*Generadores solares	*Generadores eolicos	*Club House	*Bicisenda	*Guarderia de bicicletas	PISO	METROS_CUBIERTOS	METROS_DESCUBIERTOS	METROS_COMUN	COCHERA	METROS_TOTALES	VALOR
+1	CARACTERISTICAS	Botavara	10	96	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N							
+174	DEPARTAMENTO	Botavara																																	1	53.52	4	38.72		96.24	148842
+2	DEPARTAMENTO	Botavara																																	2	53.52	4	38.72		96.24	151480
+3	DEPARTAMENTO	Botavara																																	3	53.52	4	38.72		96.24	154170
+4	DEPARTAMENTO	Botavara																																	3	48.9	8.56	38.9		96.36	165570
+5	DEPARTAMENTO	Botavara																																	4	78.19	5.34	45.42		128.95	224895
+6	DEPARTAMENTO	Botavara																																	4	75.3	14.46	46.98		136.74	240516
+7	DEPARTAMENTO	Botavara																																	4	78.19	5.34	45.42		128.95	224895
+8	DEPARTAMENTO	Botavara																																	5	78.19	5.34	45.42		128.95	224895
+9	DEPARTAMENTO	Botavara																																	6	78.19	5.34	45.42		128.95	229054
+10	DEPARTAMENTO	Botavara																																	7	78.19	5.34	45.42		128.95	233158
+11	DEPARTAMENTO	Botavara																																	8	78.19	5.34	45.42		128.95	237262
+12	DEPARTAMENTO	Botavara																																	9	104.58	11.36	53.42		169.36	374319
+13	DEPARTAMENTO	Botavara																																	9	94.8	20.35	53.32		168.47	350929
+14	DEPARTAMENTO	Botavara																																	10	94.8	20.35	53.32		168.47	360747
+15	CARACTERISTICAS	Tango Punta	4	28	SI	SI	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N							
+175	DEPARTAMENTO	Tango Punta																																	1	58	9.2			67.2	152778
+16	DEPARTAMENTO	Tango Punta																																	2	56.8	8.2			64.2	150944
+17	DEPARTAMENTO	Tango Punta																																	3	49	10			59	146667
+18	CARACTERISTICAS	Moon punta	9	72	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N							
+176	DEPARTAMENTO	Moon punta																																	1	95.4	22.5	68.03	12.5	198.43	337640
+19	DEPARTAMENTO	Moon punta																																	2	71.2	10.7	47.26	12.5	141.66	252428
+20	DEPARTAMENTO	Moon punta																																	3	95.4	22.5	68.03	12.5	198.43	346.081
+21	DEPARTAMENTO	Moon punta																																	3	71.2	10.7	47.26	12.5	141.66	258585
+22	DEPARTAMENTO	Moon punta																																	3	95.4	22.5	68.03	12.5	198.43	354522
+23	DEPARTAMENTO	Moon punta																																	3	53	7.2	34.74	10.5	105.44	203095
+24	DEPARTAMENTO	Moon punta																																	3	49	9.4	33.7	10.5	102.6	171324
+25	DEPARTAMENTO	Moon punta																																	4	95.4	22.5	68.03	12.5	198.43	362963
+26	DEPARTAMENTO	Moon punta																																	5	49	9.4	33.7	10.5	102.6	179482
+27	DEPARTAMENTO	Moon punta																																	8	53	7.2	34.74	12.5	107.44	227273
+28	DEPARTAMENTO	Moon punta																																	8	95.4	22.5	68.03	12.5	198.43	396727
+29	CARACTERISTICAS	Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N							
+177	DEPARTAMENTO	Miami Boulevard																																	19	84.36	26.93			111.29	390000
+30	DEPARTAMENTO	Miami Boulevard																																	20	84.36	26.93			111.29	400000
+31	DEPARTAMENTO	Miami Boulevard																																	21	84.36	26.93			111.29	408000
+32	DEPARTAMENTO	Miami Boulevard																																	22	84.36	26.93			111.29	416000
+33	DEPARTAMENTO	Miami Boulevard																																	23	77	15			98.08	383000
+34	DEPARTAMENTO	Miami Boulevard																																	22	77	15			98.08	378000
+35	DEPARTAMENTO	Miami Boulevard																																	23	82.7	10.88			93.58	411000
+36	DEPARTAMENTO	Miami Boulevard																																	23	77.77	15.31			93.08	383000
+37	DEPARTAMENTO	Miami Boulevard																																	23	82.7	10.88			93.58	411000
+38	DEPARTAMENTO	Miami Boulevard																																	11	84.36	26.93			111.29	425000
+39	DEPARTAMENTO	Miami Boulevard																																	22	84.36	26.93			111.29	437000
+40	CARACTERISTICAS	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	SI							
+178	DEPARTAMENTO	Diamante Brava																																	1	74.53	12.86	6.42	12.5	108.81	292463
+41	DEPARTAMENTO	Diamante Brava																																	2	74.53	12.86	6.42	12.5	108.81	296663
+42	DEPARTAMENTO	Diamante Brava																																	3	74.53	12.86	6.42	12.5	108.81	301013
+43	DEPARTAMENTO	Diamante Brava																																	4	74.53	12.86	6.42	12.5	108.81	305232
+44	DEPARTAMENTO	Diamante Brava																																	5	74.53	12.86	6.42	12.5	108.81	310232
+45	DEPARTAMENTO	Diamante Brava																																	6	74.53	12.86	6.42	12.5	108.81	315232
+46	DEPARTAMENTO	Diamante Brava																																	7	74.53	12.86	6.42	12.5	108.81	322732
+47	DEPARTAMENTO	Diamante Brava																																	8	74.53	12.86	6.42	12.5	108.81	331732
+48	DEPARTAMENTO	Diamante Brava																																	1	55.87	4.68	4.82	10.125	77.75	201230
+49	DEPARTAMENTO	Diamante Brava																																	2	55.87	4.68	4.82	10.125	77.15	203230
+50	DEPARTAMENTO	Diamante Brava																																	3	55.87	4.68	4.82	10.125	76.55	206230
+51	DEPARTAMENTO	Diamante Brava																																	4	55.87	4.68	4.82	10.125	75.95	209230
+52	DEPARTAMENTO	Diamante Brava																																	5	55.87	4.68	4.82	10.125	75.35	213230
+53	DEPARTAMENTO	Diamante Brava																																	6	55.87	4.68	4.82	10.125	74.75	217230
+54	DEPARTAMENTO	Diamante Brava																																	7	55.87	4.68	4.82	10.125	74.15	222230
+55	DEPARTAMENTO	Diamante Brava																																	8	55.87	4.68	4.82	10.125	73.55	228230
+56	DEPARTAMENTO	Diamante Brava																																	9	55.87	4.68	4.82	10.125	72.95	235230
+57	DEPARTAMENTO	Diamante Brava																																	10	55.87	4.68	4.82	10.125	72.35	243230
+58	CARACTERISTICAS	Be Punta	10	70	SI	SI	N	N	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N							
+179	DEPARTAMENTO	Be Punta																																	1	103.75	28	20.68		156.03	308000
+59	DEPARTAMENTO	Be Punta																																	2	103.75	28	20.68		156.03	319000
+60	DEPARTAMENTO	Be Punta																																	3	103.75	28	20.68		156.03	326000
+61	DEPARTAMENTO	Be Punta																																	4	103.75	28	20.68		156.03	336000
+62	DEPARTAMENTO	Be Punta																																	5	103.75	28	20.68		156.03	352000
+63	DEPARTAMENTO	Be Punta																																	6	103.75	28	20.68		156.03	362000
+64	DEPARTAMENTO	Be Punta																																	9	103.75	28	20.68		156.03	380000
+65	DEPARTAMENTO	Be Punta																																	1	64.2	17	12.41		93.61	210000
+66	DEPARTAMENTO	Be Punta																																	2	64.2	17	12.41		93.61	224000
+67	DEPARTAMENTO	Be Punta																																	7	64.2	17	12.41		93.61	263000
+68	DEPARTAMENTO	Be Punta																																	8	65.2	18	13.41		94.61	283000
+69	DEPARTAMENTO	Be Punta																																	9	66.2	19	14.41		95.61	352000
+70	CARACTERISTICAS	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N							
+180	DEPARTAMENTO	Fly Tower																																	1	77	13	19.21	12.5	121.71	240900
+71	DEPARTAMENTO	Fly Tower																																	2	77	13	19.21	12.5	121.71	244514
+72	DEPARTAMENTO	Fly Tower																																	3	77	13	19.21	12.5	121.71	248127
+73	DEPARTAMENTO	Fly Tower																																	4	77	13	19.21	12.5	121.71	151741
+74	DEPARTAMENTO	Fly Tower																																	5	77	13	19.21	12.5	121.71	255354
+75	DEPARTAMENTO	Fly Tower																																	6	77	13	19.21	12.5	121.71	258968
+76	DEPARTAMENTO	Fly Tower																																	7	77	13	19.21	12.5	121.71	262581
+77	DEPARTAMENTO	Fly Tower																																	8	77	13	19.21	12.5	121.71	266195
+78	DEPARTAMENTO	Fly Tower																																	9	77	13	19.21	12.5	121.71	269808
+79	DEPARTAMENTO	Fly Tower																																	10	77	13	19.21	12.5	121.71	273422
+80	DEPARTAMENTO	Fly Tower																																	11	77	13	19.21	12.5	121.71	277035
+81	DEPARTAMENTO	Fly Tower																																	12	77	13	19.21	12.5	121.71	280649
+82	DEPARTAMENTO	Fly Tower																																	13	77	13	19.21	12.5	121.71	284262
+83	DEPARTAMENTO	Fly Tower																																	14	77	13	19.21	12.5	121.71	287876
+84	DEPARTAMENTO	Fly Tower																																	16	77	13	19.21	12.5	121.71	410000
+85	DEPARTAMENTO	Fly Tower																																	1	64	6	14.8	10.5	95.3	181500
+86	DEPARTAMENTO	Fly Tower																																	2	64	6	14.8	10.5	95.3	184223
+87	DEPARTAMENTO	Fly Tower																																	3	64	6	14.8	10.5	95.3	186945
+88	DEPARTAMENTO	Fly Tower																																	4	64	6	14.8	10.5	95.3	189668
+89	DEPARTAMENTO	Fly Tower																																	5	64	6	14.8	10.5	95.3	192390
+90	DEPARTAMENTO	Fly Tower																																	6	64	6	14.8	10.5	95.3	195113
+91	DEPARTAMENTO	Fly Tower																																	7	64	6	14.8	10.5	95.3	197835
+92	DEPARTAMENTO	Fly Tower																																	8	64	6	14.8	10.5	95.3	200558
+93	DEPARTAMENTO	Fly Tower																																	9	64	6	14.8	10.5	95.3	203280
+94	DEPARTAMENTO	Fly Tower																																	10	64	6	14.8	10.5	95.3	206003
+95	DEPARTAMENTO	Fly Tower																																	11	64	6	14.8	10.5	95.3	208725
+96	DEPARTAMENTO	Fly Tower																																	12	64	6	14.8	10.5	95.3	211448
+97	DEPARTAMENTO	Fly Tower																																	13	64	6	14.8	10.5	95.3	214170
+98	DEPARTAMENTO	Fly Tower																																	14	64	6	14.8	10.5	95.3	216893
+99	DEPARTAMENTO	Fly Tower																																	15	64	6	14.8	10.5	95.3	234400
+100	DEPARTAMENTO	Fly Tower																																	16	64	6	14.8	10.5	95.3	202675
+101	DEPARTAMENTO	Fly Tower																																	1	62	6	13.95	12.5	94.95	181500
+102	DEPARTAMENTO	Fly Tower																																	2	62	6	13.95	12.5	94.95	184223
+103	DEPARTAMENTO	Fly Tower																																	3	62	6	13.95	12.5	94.95	186945
+104	DEPARTAMENTO	Fly Tower																																	4	62	6	13.95	12.5	94.95	189668
+105	DEPARTAMENTO	Fly Tower																																	5	62	6	13.95	12.5	94.95	192390
+106	DEPARTAMENTO	Fly Tower																																	6	62	6	13.95	12.5	94.95	195113
+107	DEPARTAMENTO	Fly Tower																																	7	62	6	13.95	12.5	94.95	197835
+108	DEPARTAMENTO	Fly Tower																																	8	62	6	13.95	12.5	94.95	200558
+109	DEPARTAMENTO	Fly Tower																																	9	62	6	13.95	12.5	94.95	203280
+110	DEPARTAMENTO	Fly Tower																																	10	62	6	13.95	12.5	94.95	206003
+111	DEPARTAMENTO	Fly Tower																																	11	62	6	13.95	12.5	94.95	208725
+112	DEPARTAMENTO	Fly Tower																																	12	62	6	13.95	12.5	94.95	211448
+113	DEPARTAMENTO	Fly Tower																																	13	62	6	13.95	12.5	94.95	214170
+114	DEPARTAMENTO	Fly Tower																																	14	62	6	13.95	12.5	94.95	216893
+115	CARACTERISTICAS	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N							
+181	DEPARTAMENTO	Torre One (I)																																	2	98.3	22	14.7		135	343000
+116	DEPARTAMENTO	Torre One (I)																																	3	98.3	22	14.7		135	347000
+117	DEPARTAMENTO	Torre One (I)																																	4	98.3	22	14.7		135	352000
+118	DEPARTAMENTO	Torre One (I)																																	2	98.3	22	14.7		135	372000
+119	DEPARTAMENTO	Torre One (I)																																	3	98.3	22	14.7		135	377000
+120	DEPARTAMENTO	Torre One (I)																																	4	98.3	22	14.7		135	382000
+121	DEPARTAMENTO	Torre One (I)																																	1	61.8	4.2	8		74	185000
+122	DEPARTAMENTO	Torre One (I)																																	2	61.8	4.2	8		74	188000
+123	DEPARTAMENTO	Torre One (I)																																	3	61.8	4.2	8		74	191000
+124	DEPARTAMENTO	Torre One (I)																																	4	61.8	4.2	8		74	194000
+125	DEPARTAMENTO	Torre One (I)																																	5	61.8	4.2	8		74	197000
+126	DEPARTAMENTO	Torre One (I)																																	2	65	6.5	8.5		80	220000
+127	DEPARTAMENTO	Torre One (I)																																	3	65	6.5	8.5		80	223000
+128	DEPARTAMENTO	Torre One (I)																																	4	65	6.5	8.5		80	226000
+129	DEPARTAMENTO	Torre One (I)																																	5	65	6.5	8.5		80	229000
+130	DEPARTAMENTO	Torre One (I)																																	6	65	6.5	8.5		80	231000
+131	CARACTERISTICAS	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	SI							
+182	DEPARTAMENTO	Ocean Drive 2																																	4	49.62		8.97		58.6	163000
+132	DEPARTAMENTO	Ocean Drive 2																																	5	50.62		9.97		59.6	168000
+133	DEPARTAMENTO	Ocean Drive 2																																	6	51.62		10.97		60.6	173000
+134	DEPARTAMENTO	Ocean Drive 2																																	7	52.62		11.97		61.6	178000
+135	DEPARTAMENTO	Ocean Drive 2																																	20	103.5	12	16		131.8	421000
+136	DEPARTAMENTO	Ocean Drive 2																																	19	103.5	12	16		131.8	415000
+137	DEPARTAMENTO	Ocean Drive 2																																	18	103.5	12	16		131.8	409000
+138	DEPARTAMENTO	Ocean Drive 2																																	9	103.5	12	16		131.8	361000
+139	DEPARTAMENTO	Ocean Drive 2																																	19	75.7	7.6	11.4		94.7	297000
+140	DEPARTAMENTO	Ocean Drive 2																																	18	75.7	7.6	11.4		94.7	293000
+141	DEPARTAMENTO	Ocean Drive 2																																	17	75.7	7.6	11.4		94.7	289000
+142	DEPARTAMENTO	Ocean Drive 2																																	19	79.4	8.2	12		99.6	319000
+143	DEPARTAMENTO	Ocean Drive 2																																	18	80.4	9.2	13		100.6	315000
+144	DEPARTAMENTO	Ocean Drive 2																																	17	81.4	10.2	14		101.6	311000
+145	DEPARTAMENTO	Ocean Drive 2																																	13	82.4	11.2	15		102.6	307000
+146	DEPARTAMENTO	Ocean Drive 2																																	11	83.4	12.2	16		103.6	288000
+147	DEPARTAMENTO	Ocean Drive 2																																	19	55.5	6.7	9		71.2	249000
+148	DEPARTAMENTO	Ocean Drive 2																																	18	55.5	6.7	9		71.2	246000
+149	DEPARTAMENTO	Ocean Drive 2																																	17	55.5	6.7	9		71.2	243000
+150	DEPARTAMENTO	Ocean Drive 2																																	16	55.5	6.7	9		71.2	240000
+151	DEPARTAMENTO	Ocean Drive 2																																	11	55.5	6.7	9		71.2	225000
+152	CARACTERISTICAS	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N							
+183	DEPARTAMENTO	Chronos																																	1	73.63	24.22	10.74	12.5	107.57	278540
+153	DEPARTAMENTO	Chronos																																	5	73.63	24.22	10.74	12.5	107.57	316523
+154	DEPARTAMENTO	Chronos																																	7	73.63	24.22	10.74	12.5	107.57	329183
+155	DEPARTAMENTO	Chronos																																	11	73.63	24.22	10.74	12.5	107.57	354505
+156	DEPARTAMENTO	Chronos																																	2	45.7	10.4	6.9	12.5	63.16	183564
+157	DEPARTAMENTO	Chronos																																	4	45.7	10.4	6.9	12.5	63.16	195536
+158	DEPARTAMENTO	Chronos																																	5	45.7	10.4	6.9	12.5	63.16	199526
+159	DEPARTAMENTO	Chronos																																	7	45.7	10.4	6.9	12.5	63.16	207507
+160	DEPARTAMENTO	Chronos																																	10	45.7	10.4	6.9	12.5	63.16	219479
+161	DEPARTAMENTO	Chronos																																	2	45.85	10.4	6.9	10.13	63.16	179121
+162	DEPARTAMENTO	Chronos																																	4	45.85	10.4	6.9	10.13	63.16	190802
+163	DEPARTAMENTO	Chronos																																	6	45.85	10.4	6.9	10.13	63.16	198590
+164	DEPARTAMENTO	Chronos																																	7	45.85	10.4	6.9	10.13	63.16	202484
+165	DEPARTAMENTO	Chronos																																	9	45.85	10.4	6.9	10.13	63.16	210272
+166	DEPARTAMENTO	Chronos																																	11	45.85	10.4	6.9	10.13	63.16	218060
+167	DEPARTAMENTO	Chronos																																	13	45.85	10.4	6.9	10.13	63.16	233636
+168	DEPARTAMENTO	Chronos																																	1	73.54	6.14	9.97	12.5	89.65	237145
+169	DEPARTAMENTO	Chronos																																	7	73.54	6.14	9.97	12.5	89.65	280262
+170	DEPARTAMENTO	Chronos																																	9	73.54	6.14	9.97	12.5	89.65	291041
+171	DEPARTAMENTO	Chronos																																	10	73.54	6.14	9.97	12.5	89.65	296431
+172	DEPARTAMENTO	Chronos																																	12	73.54	6.14	9.97	12.5	89.65	312600
+173	DEPARTAMENTO	Chronos																																	13	73.54	6.14	9.97	12.5	89.65	323379

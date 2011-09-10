@@ -35,7 +35,6 @@ sub registrarDato {
         if (lineaValida($linea)) {
                 logm("DBG",9,"Linea valida #1",\$linea);
 		guardar($linea);
-		#escribir_informe($linea);
         }
 	else {
 		logm("RPT",9,"Linea invalida #1",\$linea);
@@ -43,7 +42,7 @@ sub registrarDato {
 }
 
 
-sub lineaValida {
+sub lineaValida { #FALTA: Crear validadores de tipo para cada dato
 	return 1;
 }
 sub guardar {
@@ -66,10 +65,6 @@ sub guardar {
 
         my %pk;
         @pk{"ID","T"}= @m{"ID","T"};
-
-
-        my %pk;
-        @pk{"ID","T"}= @m{"ID","T"};
 	logm("DBG",9,"--Linea a escribir en db #1",%m);
         my $r= dbSet(\%m, \%pk, $txMy);
 
@@ -82,7 +77,7 @@ sub guardar {
 
 logm("DBG",9,"Comienzo de mainloop",);
 
-$MensajeModelo= {'T' => 'deptos', NOMBRE => 'PPPPPPP', 'PLANTAS' => 1,'UNIDADES_FUNCIONALES' => 1,'PISO' => 1,'METROS_CUBIERTOS' => 1,'METROS_DESCUBIERTOS' => 1,'COCHERA' => 1,'METROS_TOTALES' => 1,'VALOR' => 1,'AMENITIES' => 'PPP','ID'=>1,'METROS_COMUN'=>1 };
+$MensajeModelo= {'TIPO' => 'CARACTERISTICAS', NOMBRE => 'PPPPPPP', 'PLANTAS' => 1,'UNIDADES_FUNCIONALES' => 1,'PISO' => 1,'METROS_CUBIERTOS' => 1,'METROS_DESCUBIERTOS' => 1,'COCHERA' => 1,'METROS_TOTALES' => 1,'VALOR' => 1,'AMENITIES' => 'PPP','ID'=>1,'METROS_COMUN'=>1 };
 
 dbSet($MensajeModelo,$MensajeModelo);
 dbDel($MensajeModelo);
