@@ -24,7 +24,7 @@ sub withTsvData {
                 unless ($l=~/#+/){ #A. El registro no es un comentario 
                         my %row;
                         @row{@COLS}=splitTsvLine(uc($l));
-                        logm("DBG",9,"TSV READ #1",\%row);
+                        #logm("DBG",9,"TSV READ #1",\%row);
                         &$fun(\%row);
                 }
         }
@@ -33,11 +33,11 @@ sub withTsvData {
 sub registrarDato {
         my ($linea)= @_; #Linea es una referencia a hash
         if (lineaValida($linea)) {
-                logm("DBG",9,"Linea valida #1",\$linea);
+                #logm("DBG",9,"Linea valida #1",\$linea);
 		guardar($linea);
         }
 	else {
-		logm("RPT",9,"Linea invalida #1",\$linea);
+		#logm("RPT",9,"Linea invalida #1",\$linea);
 	}
 }
 
@@ -65,7 +65,7 @@ sub guardar {
 
         my %pk;
         @pk{"ID","T"}= @m{"ID","T"};
-	logm("DBG",9,"--Linea a escribir en db #1",%m);
+	#logm("DBG",9,"--Linea a escribir en db #1",%m);
         my $r= dbSet(\%m, \%pk, $txMy);
 
 }
