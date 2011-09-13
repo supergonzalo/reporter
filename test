@@ -1,10 +1,9 @@
 #!/bin/sh
 
-rm test.html
+rm global.html
 rm AppMercado.log
 rm app.deptos.db
 perl mainloop Torres\ Punta\ del\ Este.csv
-#./dbFind 't="deptos"'
-./report >> test.html
+./global >> global.html
 #elinks test.html
 #vi AppMercado.log

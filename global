@@ -1,0 +1,54 @@
+#!/usr/bin/perl
+use AppMercado;
+
+#INFO: XXX
+
+logm("DBG",9,"Comienzo de reporte",);
+
+my $mem={};
+my %global;
+my $tx=dbTxStart();
+dbFindFold('T="deptos" AND TIPO="CARACTERISTICAS"',{},[],\&loadMem);
+dbTxCommit($tx,0,'OK');
+
+
+#logm("LOOP",9,"DATA: #1",\%mem);
+print "Cantidad de edificios:", $mem{'GLOBAL'}->{'CANTIDAD'},"<br /><a href='/'>Listado de edificios en la base</a>";
+print "<br />Plantas por edificio promedio:";
+printf("%.2f",$mem{'GLOBAL'}->{'PLANTAS'}/$mem{'GLOBAL'}->{'CANTIDAD'});
+print "<br />Unidades por edificio promedio:";
+printf("%.2f",($mem{'GLOBAL'}->{'UF'}/$mem{'GLOBAL'}->{'CANTIDAD'}));
+print "<p><table>";
+print "<tr>Amenities en los edificios</tr>";
+while ( ($k,$v) = each (%{$mem{'GLOBAL'}->{'AMENITIES'}}) ) { 
+	print "<tr><td>$k</td><td>";
+	printf("%.2f",100.0*$v/$mem{'GLOBAL'}->{'CANTIDAD'});
+	print '%</td></tr>'; 
+}
+
+
+print "</table>";
+
+sub loadMem {
+        my ($dr)= @_;
+	my %amenities;
+	my %temp;
+	my %d=%{$dr->{'DEPTOS'}}; 
+	$global{'CANTIDAD'}++;
+	$global{'PLANTAS'}=$global{'PLANTAS'}+$d{'PLANTAS'};	
+	$global{'UF'}=$global{'UF'}+$d{'UNIDADES_FUNCIONALES'};	
+	#A:Tengo a $d que es un hash del depto
+        my %args= (split(/[\=\|]/,$d{'AMENITIES'}));
+        while((my $key, my $value) = each(%args)) {
+        	if($value eq 'SI'){
+                	$amenities{$key}= $value; 
+                	$global{'AMENITIES'}->{$key}++; 
+		}
+	}
+	#A: Saque los Amenities que el edificio no tiene, sume a las estadisticas globales	
+	$temp{'AMENITIES'}= join('',keys (%amenities));
+	$mem{$d{'NOMBRE'}}->{'AMENITIES'}=$temp{'AMENITIES'};
+	$mem{'GLOBAL'}=\%global;
+	#logm("LOOP",9,"DATA: #1",\%mem);
+}
+
