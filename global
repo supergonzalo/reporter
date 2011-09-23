@@ -33,6 +33,10 @@ foreach my $k (@ksXcantidad) { my $v= $d->{$k};
 
 out("</table>");
 
+open(IN,"<template.html"); $TPL= join("",<IN>); close(IN);
+$html= $TPL; $html=~ s/\<\%=\s*OUT\s*\%\>/$OUT/;
+print $html;
+
 sub loadMem {
         my ($dr)= @_;
 	my %amenities;
@@ -56,11 +60,8 @@ sub loadMem {
 	#logm("LOOP",9,"DATA: #1",\%mem);
 }
 
-sub out {
-	print join("", @_);
-}
+#DFTL: sub out { print join("", @_); }
+#DFLT: sub outf { printf(@_); }
 
-sub outf {
-	printf(@_);
-}
-
+sub out { $OUT.= join("", @_); }
+sub outf { my ($fmt, @args)= @_; $OUT.= sprintf($fmt,@args); }
