@@ -5,5 +5,7 @@ rm AppMercado.log
 rm app.deptos.db
 perl mainloop Torres\ Punta\ del\ Este.csv
 ./global >> global.html
+perl ixdepto HTML > ixdepto.html
+perl ixdepto TSV > ixdepto.tab
 #elinks test.html
 #vi AppMercado.log
