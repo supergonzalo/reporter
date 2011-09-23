@@ -20,8 +20,14 @@ print "<br />Unidades por edificio promedio:";
 printf("%.2f",($mem{'GLOBAL'}->{'UF'}/$mem{'GLOBAL'}->{'CANTIDAD'}));
 print "<p><table>";
 print "<tr>Amenities en los edificios</tr>";
-while ( ($k,$v) = each (%{$mem{'GLOBAL'}->{'AMENITIES'}}) ) { 
-	print "<tr><td>$k</td><td>";
+
+my $d= $mem{'GLOBAL'}->{'AMENITIES'}; #D: hash con los datos
+my @ks= keys(%$d); #D: lista con las claves
+my @ksXcantidad= sort({ ($d->{$b} <=> $d->{$a}) || ($a cmp $b) } @ks); #D: claves, mayor valor primero, alfabetico si son iguales
+
+foreach my $k (@ksXcantidad) { my $v= $d->{$k};
+	my $kp= substr($k,1); #A: si el asterisco
+	print "<tr><td>$kp</td><td class=\"num2d\">";
 	printf("%.2f",100.0*$v/$mem{'GLOBAL'}->{'CANTIDAD'});
 	print '%</td></tr>'; 
 }
