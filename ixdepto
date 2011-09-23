@@ -83,6 +83,13 @@ sub	outfmtHtmlTable {
 	out("<tr>" . join("",map("<td>$kv->{$_}</td>", @{$HTML_COLS{$type}})) . "</tr>\n");
 }
 
+sub	outfmtTsv {
+	my ($type, $kv)= @_;
+	$TSV_COLS{$type}||= [keys(%$kv)];
+	out(join("\t",map("$kv->{$_}", @{$TSV_COLS{$type}})) . "\n");
+}
+
+
 #S: out en vez de print
 #DFTL: sub out { print join("", @_); }
 #DFLT: sub outf { printf(@_); }
