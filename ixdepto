@@ -2,74 +2,92 @@
 use AppMercado;
 
 #INFO: informe por depto, con resumen por piso y por edificio
+#XXX: mejorar output por tipo onda Pharo (el tipo de doc provee sus funcs)
 
 @SUMAR_COLS=qw/METROS_TOTALES METROS_CUBIERTOS/;
 @PROMEDIAR_COLS=qw/USDxM2 USDxM2Cubierto/;
 
+#XXX: agregar las cols que faltan
+$TABLE_COLS=[qw/K NOMBRE PISO VALOR METROS_CUBIERTOS METROS_TOTALES USDxM2Cubierto USDxM2/];
+%table_cols_names; @table_cols_names{@$TABLE_COLS}= @$TABLE_COLS;
 logm("DBG",9,"Comienzo de reporte",);
 
 #*outfmt= \&outfmtFicha;
 
-*outfmt= \&outfmtHtmlTable;
-#XXX: agregar las cols que faltan
-$single_table_cols=[qw/K NOMBRE PISO METROS_CUBIERTOS METROS_TOTALES USDxM2Cubierto USDxM2/];
-$HTML_COLS{DEPTO}=$single_table_cols;
-$HTML_COLS{EDIFICIO}= $single_table_cols;
-$HTML_COLS{PISO}= $single_table_cols;
+my $fmt= shift(@ARGV);
+if ($fmt eq 'TSV')  {
+	*outfmt= \&outfmtTsv;
+	outfmt("HDR",\%table_cols_names);
+	reporte();
+	outEndTsv();
+}
+else {
+	*outfmt= \&outfmtHtmlTable;
+	out("<table>\n");
+	outfmt("HDR",\%table_cols_names);
+	reporte();
+	out("\n</table>\n");
+	outEndHtml();
+}
 
-out("<table>\n");
-
-$edificioCur='';
-$pisoCur='';
-my %tote=();
-my %totp= (); 
-dbFindFold('T="deptos" AND TIPO="DEPARTAMENTO"',{},['nombre','piso'],sub { my ($r)= @_;
-	my $d= $r->{DEPTOS};
-	#DBG: ficha 
-	if ($edificioCur ne $d->{NOMBRE}) {
-		if ($tote{CNT}) { #A: hay deptos
+sub reporte {
+	$edificioCur='';
+	$pisoCur='';
+	my %tote=();
+	my %totp= (); 
+	dbFindFold('T="deptos" AND TIPO="DEPARTAMENTO"',{},['nombre','piso'],sub { my ($r)= @_;
+			my $d= $r->{DEPTOS};
+#DBG: ficha 
+			if ($edificioCur ne $d->{NOMBRE}) {
+			if ($tote{CNT}) { #A: hay deptos
 			foreach my $c (@PROMEDIAR_COLS) { $tote{$c}= $tote{$c}/$tote{CNT}; }
 			$tote{NOMBRE}= $edificioCur; 
 			$tote{K}="RESUMEN EDIFICIO " . $edificioCur;
 			outfmt("EDIFICIO",\%tote);	
-		}
-		$edificioCur= $d->{NOMBRE};
-		$pisoCur= $d->{PISO};
-		%tote=();
-		%totp=();
-	}
-	elsif ($pisoCur ne $d->{PISO}) {
-		if ($totp{CNT}) { #A: hay deptos
+			}
+			$edificioCur= $d->{NOMBRE};
+			$pisoCur= $d->{PISO};
+			%tote=();
+			%totp=();
+			}
+			elsif ($pisoCur ne $d->{PISO}) {
+			if ($totp{CNT}) { #A: hay deptos
 			foreach my $c (@PROMEDIAR_COLS) { $totp{$c}= $totp{$c}/$totp{CNT}; }
 			$totp{NOMBRE}= $edificioCur; $totp{PISO}= $pisoCur;
 			$totp{K}="RESUMEN PISO " . $pisoCur . "/" .$edificioCur;
 			outfmt("PISO",\%totp);	
-		}
-		$pisoCur= $d->{PISO};
-		%totp=();
-	}
-	$d->{VALOR}=~ s/\D//g;
-	$d->{METROS_TOTALES}||= $d->{METROS_CUBIERTOS};
-	#XXX: hacer esto ANTES de meterlo en la base!
-	#A: normalizados	
-	$d->{USDxM2}= $d->{VALOR} / ($d->{METROS_TOTALES}||1);
-	$d->{USDxM2Cubierto}= $d->{VALOR} / ($d->{METROS_CUBIERTOS}||1);
-	#A: derivados
-	$tote{CNT}++; $totp{CNT}++;
-	foreach my $c (@PROMEDIAR_COLS, @SUMAR_COLS) {
-		$tote{$c}+= $d->{$c};
-		$totp{$c}+= $d->{$c};
-	}
-	outfmt("DEPTO",$d);	
-});
+			}
+			$pisoCur= $d->{PISO};
+			%totp=();
+			}
+			$d->{VALOR}=~ s/\D//g;
+			$d->{METROS_TOTALES}||= $d->{METROS_CUBIERTOS};
+#XXX: hacer esto ANTES de meterlo en la base!
+#A: normalizados	
+			$d->{USDxM2}= $d->{VALOR} / ($d->{METROS_TOTALES}||1);
+			$d->{USDxM2Cubierto}= $d->{VALOR} / ($d->{METROS_CUBIERTOS}||1);
+#A: derivados
+			$tote{CNT}++; $totp{CNT}++;
+			foreach my $c (@PROMEDIAR_COLS, @SUMAR_COLS) {
+				$tote{$c}+= $d->{$c};
+				$totp{$c}+= $d->{$c};
+			}
+			outfmt("DEPTO",$d);	
+	});
 #XXX: out del resumen para el ultimo piso y ultimo edificio!
+}
 
-out("\n</table>\n");
 
 #S: template
-open(IN,"<template.html"); $TPL= join("",<IN>); close(IN);
-$html= $TPL; $html=~ s/\<\%=\s*OUT\s*\%\>/$OUT/;
-print $html;
+sub outEndHtml {
+	open(IN,"<template.html"); $TPL= join("",<IN>); close(IN);
+	$html= $TPL; $html=~ s/\<\%=\s*OUT\s*\%\>/$OUT/;
+	print $html;
+}
+
+sub outEndTsv {
+	print $OUT;
+}
 
 #S: formato
 sub	outfmtFicha {
@@ -79,13 +97,13 @@ sub	outfmtFicha {
 
 sub	outfmtHtmlTable {
 	my ($type, $kv)= @_;
-	$HTML_COLS{$type}||= [keys(%$kv)];
+	$HTML_COLS{$type}||= $TABLE_COLS || [keys(%$kv)];
 	out("<tr>" . join("",map("<td>$kv->{$_}</td>", @{$HTML_COLS{$type}})) . "</tr>\n");
 }
 
 sub	outfmtTsv {
 	my ($type, $kv)= @_;
-	$TSV_COLS{$type}||= [keys(%$kv)];
+	$TSV_COLS{$type}||= $TABLE_COLS || [keys(%$kv)];
 	out(join("\t",map("$kv->{$_}", @{$TSV_COLS{$type}})) . "\n");
 }
 
