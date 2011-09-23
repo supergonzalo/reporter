@@ -1,0 +1,35 @@
+#!/usr/bin/perl
+use AppMercado;
+
+#INFO: informe por depto, con resumen por piso y por edificio
+
+logm("DBG",9,"Comienzo de reporte",);
+
+my $mem={};
+my %global;
+
+$edificioCur='';
+$pisoCur='';
+
+dbFindFold('T="deptos" AND TIPO="DEPARTAMENTO"',{},['nombre','piso'],sub { my ($r)= @_;
+	my $d= $r->{DEPTOS};
+	#DBG: ficha 
+	if ($edificioCur ne $d->{NOMBRE}) {
+		out("CAMBIA: EDIFICIO!\n");	
+		$edificioCur= $d->{NOMBRE};
+		$pisoCur= $d->{PISO};
+	}
+	elsif ($pisoCur ne $d->{PISO}) {
+		out("CAMBIA: PISO!\n");
+		$pisoCur= $d->{PISO};
+	}
+	out(join("",map("$_:\t$d->{$_}\n",keys(%$d))) . ("-" x 75) . "\n");
+});
+
+open(IN,"<template.html"); $TPL= join("",<IN>); close(IN);
+$html= $TPL; $html=~ s/\<\%=\s*OUT\s*\%\>/$OUT/;
+print $html;
+#DFTL: sub out { print join("", @_); }
+#DFLT: sub outf { printf(@_); }
+sub out { $OUT.= join("", @_); }
+sub outf { my ($fmt, @args)= @_; $OUT.= sprintf($fmt,@args); }
