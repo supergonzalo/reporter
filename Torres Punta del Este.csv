@@ -1,310 +1,385 @@
 ID	TIPO	NOMBRE	PLANTAS	UNIDADES_FUNCIONALES	*Piscina interna	*Piscina externa	*Piscina de nado continuo	*Snack bar	*Gimnasio	*Sauna	*Playroom	*Cyber	*Microcine	*Parrilla/quincho	*Cancha de tenis	*Cancha futbol	*Jaula de golf	*Sistema de seguridad	*Sistema de incendios	*Grupo electrogeno	*Control de accesos	*Servicio de playa	*Living	*Wi-Fi	*Business Center	*Lavadero comun	*Bauleras	*Portero visor	*Calefaccion de agua solar	*Generadores solares	*Generadores eolicos	*Club House	*Bicisenda	*Helipuerto	*Guarderia de bicicletas	PISO	METROS_CUBIERTOS	METROS_DESCUBIERTOS	METROS_COMUN	COCHERA	METROS_TOTALES	VALOR
 1	CARACTERISTICAS	Botavara	10	96	SI	SI	N	N	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N							
-2	DEPARTAMENTO	Botavara																																		1	53.52	4	38.72	10.125	106.365	148842
-3	DEPARTAMENTO	Botavara																																		1	53.52 	4.00 	38.72 	10.125	106.365	148,842
-4	DEPARTAMENTO	Botavara																																		1	53.52 	4.00 	38.72 	10.125	106.365	148,842
-5	DEPARTAMENTO	Botavara																																		1	53.52 	4.00 	38.72 	10.125	106.365	148,842
-6	DEPARTAMENTO	Botavara																																		1	53.52 	4.00 	38.72 	10.125	106.365	148,842
-7	DEPARTAMENTO	Botavara																																		2	53.52 	4.00 	38.72 	10.125	106.365	151,480
-8	DEPARTAMENTO	Botavara																																		2	53.52 	4.00 	38.72 	10.125	106.365	151,480
-9	DEPARTAMENTO	Botavara																																		2	53.52 	4.00 	38.72 	10.125	106.365	151,480
-10	DEPARTAMENTO	Botavara																																		3	53.52 	4.00 	38.72 	10.125	106.365	154,170
-11	DEPARTAMENTO	Botavara																																		3	48.90 	8.56 	38.90 	10.125	106.485	165,570
-12	DEPARTAMENTO	Botavara																																		4	78.19 	5.34 	45.42 	10.125	139.075	224,895
-13	DEPARTAMENTO	Botavara																																		4	78.19 	5.34 	45.42 	10.125	139.075	224,895
-14	DEPARTAMENTO	Botavara																																		4	75.30 	14.46 	46.98 	10.125	146.865	240,516
-15	DEPARTAMENTO	Botavara																																		4	78.19 	5.34 	45.42 	10.125	139.075	224,895
-16	DEPARTAMENTO	Botavara																																		4	78.19 	5.34 	45.42 	10.125	139.075	224,895
-17	DEPARTAMENTO	Botavara																																		5	78.19 	5.34 	45.42 	10.125	139.075	224,895
-18	DEPARTAMENTO	Botavara																																		5	78.19 	5.34 	45.42 	10.125	139.075	224,895
-19	DEPARTAMENTO	Botavara																																		5	78.19 	5.34 	45.42 	10.125	139.075	224,895
-20	DEPARTAMENTO	Botavara																																		6	78.19 	5.34 	45.42 	10.125	139.075	229,054
-21	DEPARTAMENTO	Botavara																																		6	78.19 	5.34 	45.42 	10.125	139.075	229,054
-22	DEPARTAMENTO	Botavara																																		7	78.19 	5.34 	45.42 	10.125	139.075	233,158
-23	DEPARTAMENTO	Botavara																																		7	78.19 	5.34 	45.42 	10.125	139.075	233,158
-24	DEPARTAMENTO	Botavara																																		7	78.19 	5.34 	45.42 	10.125	139.075	233,158
-25	DEPARTAMENTO	Botavara																																		8	78.19 	5.34 	45.42 	10.125	139.075	237,624
-26	DEPARTAMENTO	Botavara																																		9	104.58 	11.36 	53.42 	10.125	179.485	364,319
-27	DEPARTAMENTO	Botavara																																		9	94.80 	20.35 	53.32 	10.125	178.595	340,929
-28	DEPARTAMENTO	Botavara																																		10	94.80 	20.35 	53.32 	10.125	178.595	350,747
-29	DEPARTAMENTO	Botavara																																		10	94.80 	20.35 	53.32 	10.125	178.595	350,747
-30	DEPARTAMENTO	Botavara																																		10	94.8	20.35	53.32	10.125	178.595	360747
-31	CARACTERISTICAS	Tango Punta	4	28	SI	SI	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N						0	
-32	DEPARTAMENTO	Tango Punta																																		1	58	9.2			67.2	152778
-33	DEPARTAMENTO	Tango Punta																																		2	56.8	8.2			65	150944
-34	DEPARTAMENTO	Tango Punta																																		3	49	10			59	146667
-35	DEPARTAMENTO	Tango Punta																																		4	58	9.2			67.2	226111
-36	DEPARTAMENTO	Tango Punta																																		4	49	10			59	207778
-37	DEPARTAMENTO	Tango Punta																																		4	49	10			59	207778
-38	DEPARTAMENTO	Tango Punta																																		4	58	9.2			67.2	226111
-39	DEPARTAMENTO	Tango Punta																																		4	71	12			83	268889
-40	CARACTERISTICAS	Moon punta	9	72	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N						0	
-41	DEPARTAMENTO	Moon punta																																		1	95.4	22.5	68.03	12.50	198.430829042	337,640
-42	DEPARTAMENTO	Moon punta																																		2	71.2	10.7	47.26	12.50	141.6580568155	252,428
-43	DEPARTAMENTO	Moon punta																																		2	95.4	22.5	68.03	12.50	198.430829042	346,081
-44	DEPARTAMENTO	Moon punta																																		2	71.2	10.7	47.26	12.50	141.6580568155	252,428
-45	DEPARTAMENTO	Moon punta																																		2	51	15.6	38.43	10.50	115.5296286192	190,728
-46	DEPARTAMENTO	Moon punta																																		3	71.2	10.7	47.26	12.50	141.6580568155	258,585
-47	DEPARTAMENTO	Moon punta																																		3	95.4	22.5	68.03	12.50	198.430829042	354,522
-48	DEPARTAMENTO	Moon punta																																		3	53	7.2	34.74	10.50	105.4366913344	203,095
-49	DEPARTAMENTO	Moon punta																																		3	49	9.4	33.70	10.50	102.5980527231	171,324
-50	DEPARTAMENTO	Moon punta																																		3	51	15.6	38.43	10.50	115.5296286192	195,380
-51	DEPARTAMENTO	Moon punta																																		4	71.2	10.7	47.26	12.50	141.6580568155	264,742
-52	DEPARTAMENTO	Moon punta																																		4	95.4	22.5	68.03	12.50	198.430829042	362,963
-53	DEPARTAMENTO	Moon punta																																		4	53	7.2	34.74	10.50	105.4366913344	207,931
-54	DEPARTAMENTO	Moon punta																																		4	49	9.4	33.70	10.50	102.5980527231	175,403
-55	DEPARTAMENTO	Moon punta																																		4	51	15.6	38.43	10.50	115.5296286192	200,032
-56	DEPARTAMENTO	Moon punta																																		5	49	9.4	33.70	10.50	102.5980527231	179,482
-57	DEPARTAMENTO	Moon punta																																		5	49	9.4	33.70	10.50	102.5980527231	179,482
-58	DEPARTAMENTO	Moon punta																																		5	51	15.6	38.43	10.50	115.5296286192	204,684
-59	DEPARTAMENTO	Moon punta																																		6	53	7.2	34.74	10.50	105.4366913344	217,602
-60	DEPARTAMENTO	Moon punta																																		6	49	9.4	33.70	10.50	102.5980527231	183,562
-61	DEPARTAMENTO	Moon punta																																		6	51	15.6	38.43	10.50	115.5296286192	209,336
-62	DEPARTAMENTO	Moon punta																																		7	95.4	22.5	68.03	12.50	198.430829042	388,286
-63	DEPARTAMENTO	Moon punta																																		7	53	7.2	34.74	10.50	105.4366913344	222,438
-64	DEPARTAMENTO	Moon punta																																		7	49	9.4	33.70	10.50	102.5980527231	187,641
-65	DEPARTAMENTO	Moon punta																																		7	51	15.6	38.43	10.50	115.5296286192	213,988
-66	DEPARTAMENTO	Moon punta																																		8	53	7.2	34.74	12.50	107.4366913344	227,273
-67	DEPARTAMENTO	Moon punta																																		8	95.4	22.5	68.03	12.50	198.430829042	396,727
-68	DEPARTAMENTO	Moon punta																																		8	49	9.4	33.70	10.50	102.5980527231	191,720
-69	DEPARTAMENTO	Moon punta																																		8	51	15.6	38.43	10.50	115.5296286192	218,640
-70	DEPARTAMENTO	Moon punta																																		9	49	9.4	67.40	10.50	136.2961054462	254,539
-71	DEPARTAMENTO	Moon punta																																		9	53	7.2	69.47	12.50	142.1733826689	301,742
-72	DEPARTAMENTO	Moon punta																																		9	49	9.4	67.40	10.50	136.2961054462	254,539
-73	DEPARTAMENTO	Moon punta																																		9	51	15.6	82.40	10.50	159.4986631654	290,279
-74	CARACTERISTICAS	Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N						0	
+2	DEPARTAMENTO	Botavara																																		1	53.52	4.00	38.72	10.13	106.37	148842
+3	DEPARTAMENTO	Botavara																																		1	53.52	4.00	38.72	10.13	106.37	148842
+4	DEPARTAMENTO	Botavara																																		1	53.52	4.00	38.72	10.13	106.37	148842
+5	DEPARTAMENTO	Botavara																																		1	53.52	4.00	38.72	10.13	106.37	148842
+6	DEPARTAMENTO	Botavara																																		1	53.52	4.00	38.72	10.13	106.37	148842
+7	DEPARTAMENTO	Botavara																																		2	53.52	4.00	38.72	10.13	106.37	151480
+8	DEPARTAMENTO	Botavara																																		2	53.52	4.00	38.72	10.13	106.37	151480
+9	DEPARTAMENTO	Botavara																																		2	53.52	4.00	38.72	10.13	106.37	151480
+10	DEPARTAMENTO	Botavara																																		3	53.52	4.00	38.72	10.13	106.37	154170
+11	DEPARTAMENTO	Botavara																																		3	48.90	8.56	38.90	10.13	106.49	165570
+12	DEPARTAMENTO	Botavara																																		4	78.19	5.34	45.42	10.13	139.08	224895
+13	DEPARTAMENTO	Botavara																																		4	78.19	5.34	45.42	10.13	139.08	224895
+14	DEPARTAMENTO	Botavara																																		4	75.30	14.46	46.98	10.13	146.87	240516
+15	DEPARTAMENTO	Botavara																																		4	78.19	5.34	45.42	10.13	139.08	224895
+16	DEPARTAMENTO	Botavara																																		4	78.19	5.34	45.42	10.13	139.08	224895
+17	DEPARTAMENTO	Botavara																																		5	78.19	5.34	45.42	10.13	139.08	224895
+18	DEPARTAMENTO	Botavara																																		5	78.19	5.34	45.42	10.13	139.08	224895
+19	DEPARTAMENTO	Botavara																																		5	78.19	5.34	45.42	10.13	139.08	224895
+20	DEPARTAMENTO	Botavara																																		6	78.19	5.34	45.42	10.13	139.08	229054
+21	DEPARTAMENTO	Botavara																																		6	78.19	5.34	45.42	10.13	139.08	229054
+22	DEPARTAMENTO	Botavara																																		7	78.19	5.34	45.42	10.13	139.08	233158
+23	DEPARTAMENTO	Botavara																																		7	78.19	5.34	45.42	10.13	139.08	233158
+24	DEPARTAMENTO	Botavara																																		7	78.19	5.34	45.42	10.13	139.08	233158
+25	DEPARTAMENTO	Botavara																																		8	78.19	5.34	45.42	10.13	139.08	237624
+26	DEPARTAMENTO	Botavara																																		9	104.58	11.36	53.42	10.13	179.49	364319
+27	DEPARTAMENTO	Botavara																																		9	94.80	20.35	53.32	10.13	178.60	340929
+28	DEPARTAMENTO	Botavara																																		10	94.80	20.35	53.32	10.13	178.60	350747
+29	DEPARTAMENTO	Botavara																																		10	94.80	20.35	53.32	10.13	178.60	350747
+30	DEPARTAMENTO	Botavara																																		10	94.80	20.35	53.32	10.13	178.60	360747
+31	CARACTERISTICAS	Tango Punta	4	28	SI	SI	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	SI	N	N	N	N	N	N	N	N	N						0.00	
+32	DEPARTAMENTO	Tango Punta																																		1	58.00	9.20		11.00	78.20	152778
+33	DEPARTAMENTO	Tango Punta																																		2	56.80	8.20		11.00	76.00	150944
+34	DEPARTAMENTO	Tango Punta																																		3	49.00	10.00		11.00	70.00	146667
+35	DEPARTAMENTO	Tango Punta																																		4	58.00	9.20		11.00	78.20	226111
+36	DEPARTAMENTO	Tango Punta																																		4	49.00	10.00		11.00	70.00	207778
+37	DEPARTAMENTO	Tango Punta																																		4	49.00	10.00		11.00	70.00	207778
+38	DEPARTAMENTO	Tango Punta																																		4	58.00	9.20		11.00	78.20	226111
+39	DEPARTAMENTO	Tango Punta																																		4	71.00	12.00		11.00	94.00	268889
+40	CARACTERISTICAS	Moon punta	9	72	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N						0.00	
+41	DEPARTAMENTO	Moon punta																																		1	95.40	22.50	68.03	12.50	198.43	337640
+42	DEPARTAMENTO	Moon punta																																		2	71.20	10.70	47.26	12.50	141.66	252428
+43	DEPARTAMENTO	Moon punta																																		2	95.40	22.50	68.03	12.50	198.43	346081
+44	DEPARTAMENTO	Moon punta																																		2	71.20	10.70	47.26	12.50	141.66	252428
+45	DEPARTAMENTO	Moon punta																																		2	51.00	15.60	38.43	10.50	115.53	190728
+46	DEPARTAMENTO	Moon punta																																		3	71.20	10.70	47.26	12.50	141.66	258585
+47	DEPARTAMENTO	Moon punta																																		3	95.40	22.50	68.03	12.50	198.43	354522
+48	DEPARTAMENTO	Moon punta																																		3	53.00	7.20	34.74	10.50	105.44	203095
+49	DEPARTAMENTO	Moon punta																																		3	49.00	9.40	33.70	10.50	102.60	171324
+50	DEPARTAMENTO	Moon punta																																		3	51.00	15.60	38.43	10.50	115.53	195380
+51	DEPARTAMENTO	Moon punta																																		4	71.20	10.70	47.26	12.50	141.66	264742
+52	DEPARTAMENTO	Moon punta																																		4	95.40	22.50	68.03	12.50	198.43	362963
+53	DEPARTAMENTO	Moon punta																																		4	53.00	7.20	34.74	10.50	105.44	207931
+54	DEPARTAMENTO	Moon punta																																		4	49.00	9.40	33.70	10.50	102.60	175403
+55	DEPARTAMENTO	Moon punta																																		4	51.00	15.60	38.43	10.50	115.53	200032
+56	DEPARTAMENTO	Moon punta																																		5	49.00	9.40	33.70	10.50	102.60	179482
+57	DEPARTAMENTO	Moon punta																																		5	49.00	9.40	33.70	10.50	102.60	179482
+58	DEPARTAMENTO	Moon punta																																		5	51.00	15.60	38.43	10.50	115.53	204684
+59	DEPARTAMENTO	Moon punta																																		6	53.00	7.20	34.74	10.50	105.44	217602
+60	DEPARTAMENTO	Moon punta																																		6	49.00	9.40	33.70	10.50	102.60	183562
+61	DEPARTAMENTO	Moon punta																																		6	51.00	15.60	38.43	10.50	115.53	209336
+62	DEPARTAMENTO	Moon punta																																		7	95.40	22.50	68.03	12.50	198.43	388286
+63	DEPARTAMENTO	Moon punta																																		7	53.00	7.20	34.74	10.50	105.44	222438
+64	DEPARTAMENTO	Moon punta																																		7	49.00	9.40	33.70	10.50	102.60	187641
+65	DEPARTAMENTO	Moon punta																																		7	51.00	15.60	38.43	10.50	115.53	213988
+66	DEPARTAMENTO	Moon punta																																		8	53.00	7.20	34.74	12.50	107.44	227273
+67	DEPARTAMENTO	Moon punta																																		8	95.40	22.50	68.03	12.50	198.43	396727
+68	DEPARTAMENTO	Moon punta																																		8	49.00	9.40	33.70	10.50	102.60	191720
+69	DEPARTAMENTO	Moon punta																																		8	51.00	15.60	38.43	10.50	115.53	218640
+70	DEPARTAMENTO	Moon punta																																		9	49.00	9.40	67.40	10.50	136.30	254539
+71	DEPARTAMENTO	Moon punta																																		9	53.00	7.20	69.47	12.50	142.17	301742
+72	DEPARTAMENTO	Moon punta																																		9	49.00	9.40	67.40	10.50	136.30	254539
+73	DEPARTAMENTO	Moon punta																																		9	51.00	15.60	82.40	10.50	159.50	290279
+74	CARACTERISTICAS	Miami Boulevard	23	176	SI	SI	N	N	SI	SI	SI	SI	SI	N	SI	SI	SI	SI	N	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N						0.00	
 75	DEPARTAMENTO	Miami Boulevard																																		19	84.36	26.93			111.29	390000
 76	DEPARTAMENTO	Miami Boulevard																																		20	84.36	26.93			111.29	400000
 77	DEPARTAMENTO	Miami Boulevard																																		21	84.36	26.93			111.29	408000
 78	DEPARTAMENTO	Miami Boulevard																																		22	84.36	26.93			111.29	416000
-79	DEPARTAMENTO	Miami Boulevard																																		23	77	15			92	383000
-80	DEPARTAMENTO	Miami Boulevard																																		22	77	15			92	378000
-81	DEPARTAMENTO	Miami Boulevard																																		23	82.7	10.88			93.58	411000
+79	DEPARTAMENTO	Miami Boulevard																																		23	77.00	15.00			92.00	383000
+80	DEPARTAMENTO	Miami Boulevard																																		22	77.00	15.00			92.00	378000
+81	DEPARTAMENTO	Miami Boulevard																																		23	82.70	10.88			93.58	411000
 82	DEPARTAMENTO	Miami Boulevard																																		23	77.77	15.31			93.08	383000
-83	DEPARTAMENTO	Miami Boulevard																																		23	82.7	10.88			93.58	411000
+83	DEPARTAMENTO	Miami Boulevard																																		23	82.70	10.88			93.58	411000
 84	DEPARTAMENTO	Miami Boulevard																																		11	84.36	26.93			111.29	425000
 85	DEPARTAMENTO	Miami Boulevard																																		22	84.36	26.93			111.29	437000
-86	CARACTERISTICAS	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	SI						0	
-87	DEPARTAMENTO	Diamante Brava																																		1	74.53	12.86	6.42	12.5	106.31	292463
-88	DEPARTAMENTO	Diamante Brava																																		2	74.53	12.86	6.42	12.5	106.31	296663
-89	DEPARTAMENTO	Diamante Brava																																		3	74.53	12.86	6.42	12.5	106.31	301013
-90	DEPARTAMENTO	Diamante Brava																																		4	74.53	12.86	6.42	12.5	106.31	305232
-91	DEPARTAMENTO	Diamante Brava																																		5	74.53	12.86	6.42	12.5	106.31	310232
-92	DEPARTAMENTO	Diamante Brava																																		6	74.53	12.86	6.42	12.5	106.31	315232
-93	DEPARTAMENTO	Diamante Brava																																		7	74.53	12.86	6.42	12.5	106.31	322732
-94	DEPARTAMENTO	Diamante Brava																																		8	74.53	12.86	6.42	12.5	106.31	331732
-95	DEPARTAMENTO	Diamante Brava																																		1	55.87	4.68	4.82	10.125	75.495	201230
-96	DEPARTAMENTO	Diamante Brava																																		2	55.87	4.68	4.82	10.125	75.495	203230
-97	DEPARTAMENTO	Diamante Brava																																		3	55.87	4.68	4.82	10.125	75.495	206230
-98	DEPARTAMENTO	Diamante Brava																																		4	55.87	4.68	4.82	10.125	75.495	209230
-99	DEPARTAMENTO	Diamante Brava																																		5	55.87	4.68	4.82	10.125	75.495	213230
-100	DEPARTAMENTO	Diamante Brava																																		6	55.87	4.68	4.82	10.125	75.495	217230
-101	DEPARTAMENTO	Diamante Brava																																		7	55.87	4.68	4.82	10.125	75.495	222230
-102	DEPARTAMENTO	Diamante Brava																																		8	55.87	4.68	4.82	10.125	75.495	228230
-103	DEPARTAMENTO	Diamante Brava																																		9	55.87	4.68	4.82	10.125	75.495	235230
-104	DEPARTAMENTO	Diamante Brava																																		10	55.87	4.68	4.82	10.125	75.495	243230
-105	DEPARTAMENTO	Diamante Brava																																		1	73.68	11.73	6.39	12.5	104.3	257445
-106	DEPARTAMENTO	Diamante Brava																																		2	73.68	11.73	6.39	12.5	104.3	264045
-107	DEPARTAMENTO	Diamante Brava																																		3	73.68	11.73	6.39	12.5	104.3	271045
-108	DEPARTAMENTO	Diamante Brava																																		5	73.68	11.73	6.39	12.5	104.3	284695
-109	DEPARTAMENTO	Diamante Brava																																		7	73.68	11.73	6.39	12.5	104.3	299195
-110	DEPARTAMENTO	Diamante Brava																																		9	73.68	11.73	6.39	12.5	104.3	314695
-111	DEPARTAMENTO	Diamante Brava																																		1	55.87	6.93	4.82	10.125	77.745	201230
-112	DEPARTAMENTO	Diamante Brava																																		2	55.87	6.93	4.82	10.125	77.745	203230
-113	DEPARTAMENTO	Diamante Brava																																		3	55.87	6.93	4.82	10.125	77.745	203230
-114	DEPARTAMENTO	Diamante Brava																																		4	55.87	6.93	4.82	10.125	77.745	209230
-115	DEPARTAMENTO	Diamante Brava																																		5	55.87	6.93	4.82	10.125	77.745	213230
-116	DEPARTAMENTO	Diamante Brava																																		7	55.87	6.93	4.82	10.125	77.745	222230
-117	DEPARTAMENTO	Diamante Brava																																		8	55.87	6.93	4.82	10.125	77.745	228230
-118	DEPARTAMENTO	Diamante Brava																																		9	55.87	6.93	4.82	10.125	77.745	235230
-119	DEPARTAMENTO	Diamante Brava																																		1	41.81	7.23	3.63	10.125	62.795	162916
-120	DEPARTAMENTO	Diamante Brava																																		2	41.81	7.23	3.63	10.125	62.795	165916
-121	DEPARTAMENTO	Diamante Brava																																		3	41.81	7.23	3.63	10.125	62.795	168916
-122	DEPARTAMENTO	Diamante Brava																																		4	41.81	7.23	3.63	10.125	62.795	171916
-123	DEPARTAMENTO	Diamante Brava																																		5	41.81	7.23	3.63	10.125	62.795	174916
-124	DEPARTAMENTO	Diamante Brava																																		6	41.81	7.23	3.63	10.125	62.795	180916
-125	DEPARTAMENTO	Diamante Brava																																		7	41.81	7.23	3.63	10.125	62.795	186916
-126	DEPARTAMENTO	Diamante Brava																																		8	41.81	7.23	3.63	10.125	62.795	192916
-127	DEPARTAMENTO	Diamante Brava																																		9	41.81	7.23	3.63	10.125	62.795	198916
-128	DEPARTAMENTO	Diamante Brava																																		10	41.81	7.23	3.63	10.125	62.795	204916
-129	DEPARTAMENTO	Diamante Brava																																		1	87.85	19.88	7.41	12.5	127.64	329051
-130	DEPARTAMENTO	Diamante Brava																																		2	87.85	19.88	7.41	12.5	127.64	333121
-131	DEPARTAMENTO	Diamante Brava																																		3	87.85	19.88	7.41	12.5	127.64	337121
-132	DEPARTAMENTO	Diamante Brava																																		4	87.85	19.88	7.41	12.5	127.64	341121
-133	DEPARTAMENTO	Diamante Brava																																		6	87.85	19.88	7.41	12.5	127.64	351221
-134	DEPARTAMENTO	Diamante Brava																																		8	87.85	19.88	7.41	12.5	127.64	361921
-135	CARACTERISTICAS	Be Punta	10	70	SI	SI	N	N	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N						0	
-136	DEPARTAMENTO	Be Punta																																		1	103.75	28	20.68	10.12	162.55	308000
-137	DEPARTAMENTO	Be Punta																																		2	103.75	28	20.68	10.12	162.55	319000
-138	DEPARTAMENTO	Be Punta																																		3	103.75	28	20.68	10.12	162.55	326000
-139	DEPARTAMENTO	Be Punta																																		4	103.75	28	20.68	10.12	162.55	336000
-140	DEPARTAMENTO	Be Punta																																		5	103.75	28	20.68	10.12	162.55	352000
-141	DEPARTAMENTO	Be Punta																																		6	103.75	28	20.68	10.12	162.55	362000
-142	DEPARTAMENTO	Be Punta																																		9	103.75	28	20.68	10.12	162.55	380000
-143	DEPARTAMENTO	Be Punta																																		1	64.2	17	12.41	10.12	103.73	210000
-144	DEPARTAMENTO	Be Punta																																		2	64.2	17	12.41	10.12	103.73	224000
-145	DEPARTAMENTO	Be Punta																																		7	64.2	17	12.41	10.12	103.73	263000
-146	DEPARTAMENTO	Be Punta																																		8	65.2	18	13.41	10.12	106.73	283000
-147	DEPARTAMENTO	Be Punta																																		9	66.2	19	14.41	10.12	109.73	352000
+86	CARACTERISTICAS	Diamante Brava	10	80	SI	SI	N	N	SI	SI	SI	NO	SI	SI	NO	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	N	N	N	N	N	N	SI						0.00	
+87	DEPARTAMENTO	Diamante Brava																																		1	74.53	12.86	6.42	12.50	106.31	292463
+88	DEPARTAMENTO	Diamante Brava																																		2	74.53	12.86	6.42	12.50	106.31	296663
+89	DEPARTAMENTO	Diamante Brava																																		3	74.53	12.86	6.42	12.50	106.31	301013
+90	DEPARTAMENTO	Diamante Brava																																		4	74.53	12.86	6.42	12.50	106.31	305232
+91	DEPARTAMENTO	Diamante Brava																																		5	74.53	12.86	6.42	12.50	106.31	310232
+92	DEPARTAMENTO	Diamante Brava																																		6	74.53	12.86	6.42	12.50	106.31	315232
+93	DEPARTAMENTO	Diamante Brava																																		7	74.53	12.86	6.42	12.50	106.31	322732
+94	DEPARTAMENTO	Diamante Brava																																		8	74.53	12.86	6.42	12.50	106.31	331732
+95	DEPARTAMENTO	Diamante Brava																																		1	55.87	4.68	4.82	10.13	75.50	201230
+96	DEPARTAMENTO	Diamante Brava																																		2	55.87	4.68	4.82	10.13	75.50	203230
+97	DEPARTAMENTO	Diamante Brava																																		3	55.87	4.68	4.82	10.13	75.50	206230
+98	DEPARTAMENTO	Diamante Brava																																		4	55.87	4.68	4.82	10.13	75.50	209230
+99	DEPARTAMENTO	Diamante Brava																																		5	55.87	4.68	4.82	10.13	75.50	213230
+100	DEPARTAMENTO	Diamante Brava																																		6	55.87	4.68	4.82	10.13	75.50	217230
+101	DEPARTAMENTO	Diamante Brava																																		7	55.87	4.68	4.82	10.13	75.50	222230
+102	DEPARTAMENTO	Diamante Brava																																		8	55.87	4.68	4.82	10.13	75.50	228230
+103	DEPARTAMENTO	Diamante Brava																																		9	55.87	4.68	4.82	10.13	75.50	235230
+104	DEPARTAMENTO	Diamante Brava																																		10	55.87	4.68	4.82	10.13	75.50	243230
+105	DEPARTAMENTO	Diamante Brava																																		1	73.68	11.73	6.39	12.50	104.30	257445
+106	DEPARTAMENTO	Diamante Brava																																		2	73.68	11.73	6.39	12.50	104.30	264045
+107	DEPARTAMENTO	Diamante Brava																																		3	73.68	11.73	6.39	12.50	104.30	271045
+108	DEPARTAMENTO	Diamante Brava																																		5	73.68	11.73	6.39	12.50	104.30	284695
+109	DEPARTAMENTO	Diamante Brava																																		7	73.68	11.73	6.39	12.50	104.30	299195
+110	DEPARTAMENTO	Diamante Brava																																		9	73.68	11.73	6.39	12.50	104.30	314695
+111	DEPARTAMENTO	Diamante Brava																																		1	55.87	6.93	4.82	10.13	77.75	201230
+112	DEPARTAMENTO	Diamante Brava																																		2	55.87	6.93	4.82	10.13	77.75	203230
+113	DEPARTAMENTO	Diamante Brava																																		3	55.87	6.93	4.82	10.13	77.75	203230
+114	DEPARTAMENTO	Diamante Brava																																		4	55.87	6.93	4.82	10.13	77.75	209230
+115	DEPARTAMENTO	Diamante Brava																																		5	55.87	6.93	4.82	10.13	77.75	213230
+116	DEPARTAMENTO	Diamante Brava																																		7	55.87	6.93	4.82	10.13	77.75	222230
+117	DEPARTAMENTO	Diamante Brava																																		8	55.87	6.93	4.82	10.13	77.75	228230
+118	DEPARTAMENTO	Diamante Brava																																		9	55.87	6.93	4.82	10.13	77.75	235230
+119	DEPARTAMENTO	Diamante Brava																																		1	41.81	7.23	3.63	10.13	62.80	162916
+120	DEPARTAMENTO	Diamante Brava																																		2	41.81	7.23	3.63	10.13	62.80	165916
+121	DEPARTAMENTO	Diamante Brava																																		3	41.81	7.23	3.63	10.13	62.80	168916
+122	DEPARTAMENTO	Diamante Brava																																		4	41.81	7.23	3.63	10.13	62.80	171916
+123	DEPARTAMENTO	Diamante Brava																																		5	41.81	7.23	3.63	10.13	62.80	174916
+124	DEPARTAMENTO	Diamante Brava																																		6	41.81	7.23	3.63	10.13	62.80	180916
+125	DEPARTAMENTO	Diamante Brava																																		7	41.81	7.23	3.63	10.13	62.80	186916
+126	DEPARTAMENTO	Diamante Brava																																		8	41.81	7.23	3.63	10.13	62.80	192916
+127	DEPARTAMENTO	Diamante Brava																																		9	41.81	7.23	3.63	10.13	62.80	198916
+128	DEPARTAMENTO	Diamante Brava																																		10	41.81	7.23	3.63	10.13	62.80	204916
+129	DEPARTAMENTO	Diamante Brava																																		1	87.85	19.88	7.41	12.50	127.64	329051
+130	DEPARTAMENTO	Diamante Brava																																		2	87.85	19.88	7.41	12.50	127.64	333121
+131	DEPARTAMENTO	Diamante Brava																																		3	87.85	19.88	7.41	12.50	127.64	337121
+132	DEPARTAMENTO	Diamante Brava																																		4	87.85	19.88	7.41	12.50	127.64	341121
+133	DEPARTAMENTO	Diamante Brava																																		6	87.85	19.88	7.41	12.50	127.64	351221
+134	DEPARTAMENTO	Diamante Brava																																		8	87.85	19.88	7.41	12.50	127.64	361921
+135	CARACTERISTICAS	Be Punta	10	70	SI	SI	N	N	SI	SI	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N						0.00	
+136	DEPARTAMENTO	Be Punta																																		1	103.75	28.00	20.68	10.12	162.55	308000
+137	DEPARTAMENTO	Be Punta																																		2	103.75	28.00	20.68	10.12	162.55	319000
+138	DEPARTAMENTO	Be Punta																																		3	103.75	28.00	20.68	10.12	162.55	326000
+139	DEPARTAMENTO	Be Punta																																		4	103.75	28.00	20.68	10.12	162.55	336000
+140	DEPARTAMENTO	Be Punta																																		5	103.75	28.00	20.68	10.12	162.55	352000
+141	DEPARTAMENTO	Be Punta																																		6	103.75	28.00	20.68	10.12	162.55	362000
+142	DEPARTAMENTO	Be Punta																																		9	103.75	28.00	20.68	10.12	162.55	380000
+143	DEPARTAMENTO	Be Punta																																		1	64.20	17.00	12.41	10.12	103.73	210000
+144	DEPARTAMENTO	Be Punta																																		2	64.20	17.00	12.41	10.12	103.73	224000
+145	DEPARTAMENTO	Be Punta																																		7	64.20	17.00	12.41	10.12	103.73	263000
+146	DEPARTAMENTO	Be Punta																																		8	65.20	18.00	13.41	10.12	106.73	283000
+147	DEPARTAMENTO	Be Punta																																		9	66.20	19.00	14.41	10.12	109.73	352000
 148	DEPARTAMENTO	Be Punta																																		2	97.95	26.25	18.99	10.12	153.31	340000
 149	DEPARTAMENTO	Be Punta																																		4	97.95	26.25	18.99	10.12	153.31	365000
 150	DEPARTAMENTO	Be Punta																																		6	97.95	26.25	18.99	10.12	153.31	397000
 151	DEPARTAMENTO	Be Punta																																		9	97.95	26.25	18.99	10.12	153.31	432000
-152	CARACTERISTICAS	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	N						0	
-153	DEPARTAMENTO	Fly Tower																																		1	77	13	19.21	12.5	121.71	240900
-154	DEPARTAMENTO	Fly Tower																																		2	77	13	19.21	12.5	121.71	244514
-155	DEPARTAMENTO	Fly Tower																																		3	77	13	19.21	12.5	121.71	248127
-156	DEPARTAMENTO	Fly Tower																																		4	77	13	19.21	12.5	121.71	151741
-157	DEPARTAMENTO	Fly Tower																																		5	77	13	19.21	12.5	121.71	255354
-158	DEPARTAMENTO	Fly Tower																																		6	77	13	19.21	12.5	121.71	258968
-159	DEPARTAMENTO	Fly Tower																																		7	77	13	19.21	12.5	121.71	262581
-160	DEPARTAMENTO	Fly Tower																																		8	77	13	19.21	12.5	121.71	266195
-161	DEPARTAMENTO	Fly Tower																																		9	77	13	19.21	12.5	121.71	269808
-162	DEPARTAMENTO	Fly Tower																																		10	77	13	19.21	12.5	121.71	273422
-163	DEPARTAMENTO	Fly Tower																																		11	77	13	19.21	12.5	121.71	277035
-164	DEPARTAMENTO	Fly Tower																																		12	77	13	19.21	12.5	121.71	280649
-165	DEPARTAMENTO	Fly Tower																																		13	77	13	19.21	12.5	121.71	284262
-166	DEPARTAMENTO	Fly Tower																																		14	77	13	19.21	12.5	121.71	287876
-167	DEPARTAMENTO	Fly Tower																																		16	77	13	19.21	12.5	121.71	410000
-168	DEPARTAMENTO	Fly Tower																																		1	64	6	14.8	10.5	95.3	181500
-169	DEPARTAMENTO	Fly Tower																																		2	64	6	14.8	10.5	95.3	184223
-170	DEPARTAMENTO	Fly Tower																																		3	64	6	14.8	10.5	95.3	186945
-171	DEPARTAMENTO	Fly Tower																																		4	64	6	14.8	10.5	95.3	189668
-172	DEPARTAMENTO	Fly Tower																																		5	64	6	14.8	10.5	95.3	192390
-173	DEPARTAMENTO	Fly Tower																																		6	64	6	14.8	10.5	95.3	195113
-174	DEPARTAMENTO	Fly Tower																																		7	64	6	14.8	10.5	95.3	197835
-175	DEPARTAMENTO	Fly Tower																																		8	64	6	14.8	10.5	95.3	200558
-176	DEPARTAMENTO	Fly Tower																																		9	64	6	14.8	10.5	95.3	203280
-177	DEPARTAMENTO	Fly Tower																																		10	64	6	14.8	10.5	95.3	206003
-178	DEPARTAMENTO	Fly Tower																																		11	64	6	14.8	10.5	95.3	208725
-179	DEPARTAMENTO	Fly Tower																																		12	64	6	14.8	10.5	95.3	211448
-180	DEPARTAMENTO	Fly Tower																																		13	64	6	14.8	10.5	95.3	214170
-181	DEPARTAMENTO	Fly Tower																																		14	64	6	14.8	10.5	95.3	216893
-182	DEPARTAMENTO	Fly Tower																																		15	64	6	14.8	10.5	95.3	234400
-183	DEPARTAMENTO	Fly Tower																																		16	64	6	14.8	10.5	95.3	202675
-184	DEPARTAMENTO	Fly Tower																																		1	62	6	13.95	12.5	94.45	181500
-185	DEPARTAMENTO	Fly Tower																																		2	62	6	13.95	12.5	94.45	184223
-186	DEPARTAMENTO	Fly Tower																																		3	62	6	13.95	12.5	94.45	186945
-187	DEPARTAMENTO	Fly Tower																																		4	62	6	13.95	12.5	94.45	189668
-188	DEPARTAMENTO	Fly Tower																																		5	62	6	13.95	12.5	94.45	192390
-189	DEPARTAMENTO	Fly Tower																																		6	62	6	13.95	12.5	94.45	195113
-190	DEPARTAMENTO	Fly Tower																																		7	62	6	13.95	12.5	94.45	197835
-191	DEPARTAMENTO	Fly Tower																																		8	62	6	13.95	12.5	94.45	200558
-192	DEPARTAMENTO	Fly Tower																																		9	62	6	13.95	12.5	94.45	203280
-193	DEPARTAMENTO	Fly Tower																																		10	62	6	13.95	12.5	94.45	206003
-194	DEPARTAMENTO	Fly Tower																																		11	62	6	13.95	12.5	94.45	208725
-195	DEPARTAMENTO	Fly Tower																																		12	62	6	13.95	12.5	94.45	211448
-196	DEPARTAMENTO	Fly Tower																																		13	62	6	13.95	12.5	94.45	214170
-197	DEPARTAMENTO	Fly Tower																																		14	62	6	13.95	12.5	94.45	216893
-198	CARACTERISTICAS	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	N						0	
-199	DEPARTAMENTO	Torre One (I)																																		2	98.3	22	14.7	11	146	343000
-200	DEPARTAMENTO	Torre One (I)																																		3	98.3	22	14.7	11	146	347000
-201	DEPARTAMENTO	Torre One (I)																																		4	98.3	22	14.7	11	146	352000
-202	DEPARTAMENTO	Torre One (I)																																		2	98.3	22	14.7	11	146	372000
-203	DEPARTAMENTO	Torre One (I)																																		3	98.3	22	14.7	11	146	377000
-204	DEPARTAMENTO	Torre One (I)																																		4	98.3	22	14.7	11	146	382000
-205	DEPARTAMENTO	Torre One (I)																																		1	61.8	4.2	8	11	85	185000
-206	DEPARTAMENTO	Torre One (I)																																		2	61.8	4.2	8	11	85	188000
-207	DEPARTAMENTO	Torre One (I)																																		3	61.8	4.2	8	11	85	191000
-208	DEPARTAMENTO	Torre One (I)																																		4	61.8	4.2	8	11	85	194000
-209	DEPARTAMENTO	Torre One (I)																																		5	61.8	4.2	8	11	85	197000
-210	DEPARTAMENTO	Torre One (I)																																		2	65	6.5	8.5	11	91	220000
-211	DEPARTAMENTO	Torre One (I)																																		3	65	6.5	8.5	11	91	223000
-212	DEPARTAMENTO	Torre One (I)																																		4	65	6.5	8.5	11	91	226000
-213	DEPARTAMENTO	Torre One (I)																																		5	65	6.5	8.5	11	91	229000
-214	DEPARTAMENTO	Torre One (I)																																		6	65	6.5	8.5	11	91	231000
-215	CARACTERISTICAS	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	N	SI						0	
-216	DEPARTAMENTO	Ocean Drive 2																																		4	49.62		8.97	11	69.59	163000
-217	DEPARTAMENTO	Ocean Drive 2																																		5	50.62		9.97	11	71.59	168000
-218	DEPARTAMENTO	Ocean Drive 2																																		6	51.62		10.97	11	73.59	173000
-219	DEPARTAMENTO	Ocean Drive 2																																		7	52.62		11.97	11	75.59	178000
-220	DEPARTAMENTO	Ocean Drive 2																																		20	103.5	12	16	11	142.5	421000
-221	DEPARTAMENTO	Ocean Drive 2																																		19	103.5	12	16	11	142.5	415000
-222	DEPARTAMENTO	Ocean Drive 2																																		18	103.5	12	16	11	142.5	409000
-223	DEPARTAMENTO	Ocean Drive 2																																		9	103.5	12	16	11	142.5	361000
-224	DEPARTAMENTO	Ocean Drive 2																																		19	75.7	7.6	11.4	11	105.7	297000
-225	DEPARTAMENTO	Ocean Drive 2																																		18	75.7	7.6	11.4	11	105.7	293000
-226	DEPARTAMENTO	Ocean Drive 2																																		17	75.7	7.6	11.4	11	105.7	289000
-227	DEPARTAMENTO	Ocean Drive 2																																		19	79.4	8.2	12	11	110.6	319000
-228	DEPARTAMENTO	Ocean Drive 2																																		18	80.4	9.2	13	11	113.6	315000
-229	DEPARTAMENTO	Ocean Drive 2																																		17	81.4	10.2	14	11	116.6	311000
-230	DEPARTAMENTO	Ocean Drive 2																																		13	82.4	11.2	15	11	119.6	307000
-231	DEPARTAMENTO	Ocean Drive 2																																		11	83.4	12.2	16	11	122.6	288000
-232	DEPARTAMENTO	Ocean Drive 2																																		19	55.5	6.7	9	11	82.2	249000
-233	DEPARTAMENTO	Ocean Drive 2																																		18	55.5	6.7	9	11	82.2	246000
-234	DEPARTAMENTO	Ocean Drive 2																																		17	55.5	6.7	9	11	82.2	243000
-235	DEPARTAMENTO	Ocean Drive 2																																		16	55.5	6.7	9	11	82.2	240000
-236	DEPARTAMENTO	Ocean Drive 2																																		11	55.5	6.7	9	11	82.2	225000
-237	CARACTERISTICAS	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	N						0	
-238	DEPARTAMENTO	Chronos																																		1	73.63	24.22	10.74	12.5	121.09	278540
-239	DEPARTAMENTO	Chronos																																		5	73.63	24.22	10.74	12.5	121.09	316523
-240	DEPARTAMENTO	Chronos																																		7	73.63	24.22	10.74	12.5	121.09	329183
-241	DEPARTAMENTO	Chronos																																		11	73.63	24.22	10.74	12.5	121.09	354505
-242	DEPARTAMENTO	Chronos																																		2	45.7	10.4	6.9	12.5	75.5	183564
-243	DEPARTAMENTO	Chronos																																		4	45.7	10.4	6.9	12.5	75.5	195536
-244	DEPARTAMENTO	Chronos																																		5	45.7	10.4	6.9	12.5	75.5	199526
-245	DEPARTAMENTO	Chronos																																		7	45.7	10.4	6.9	12.5	75.5	207507
-246	DEPARTAMENTO	Chronos																																		10	45.7	10.4	6.9	12.5	75.5	219479
-247	DEPARTAMENTO	Chronos																																		2	45.85	10.4	6.9	10.13	73.28	179121
-248	DEPARTAMENTO	Chronos																																		4	45.85	10.4	6.9	10.13	73.28	190802
-249	DEPARTAMENTO	Chronos																																		6	45.85	10.4	6.9	10.13	73.28	198590
-250	DEPARTAMENTO	Chronos																																		7	45.85	10.4	6.9	10.13	73.28	202484
-251	DEPARTAMENTO	Chronos																																		9	45.85	10.4	6.9	10.13	73.28	210272
-252	DEPARTAMENTO	Chronos																																		11	45.85	10.4	6.9	10.13	73.28	218060
-253	DEPARTAMENTO	Chronos																																		13	45.85	10.4	6.9	10.13	73.28	233636
-254	DEPARTAMENTO	Chronos																																		1	73.54	6.14	9.97	12.5	102.15	237145
-255	DEPARTAMENTO	Chronos																																		7	73.54	6.14	9.97	12.5	102.15	280262
-256	DEPARTAMENTO	Chronos																																		9	73.54	6.14	9.97	12.5	102.15	291041
-257	DEPARTAMENTO	Chronos																																		10	73.54	6.14	9.97	12.5	102.15	296431
-258	DEPARTAMENTO	Chronos																																		12	73.54	6.14	9.97	12.5	102.15	312600
-259	DEPARTAMENTO	Chronos																																		13	73.54	6.14	9.97	12.5	102.15	323379
+152	CARACTERISTICAS	Fly Tower	19	110	SI	SI	N	N	SI	SI	SI	SI	SI	SI	NO	NO	N	SI	N	N	N	N	N	SI	SI	SI	N	N	N	N	N	N	N	N	N						0.00	
+153	DEPARTAMENTO	Fly Tower																																		1	77.00	13.00	19.21	12.50	121.71	240900
+154	DEPARTAMENTO	Fly Tower																																		2	77.00	13.00	19.21	12.50	121.71	244514
+155	DEPARTAMENTO	Fly Tower																																		3	77.00	13.00	19.21	12.50	121.71	248127
+156	DEPARTAMENTO	Fly Tower																																		4	77.00	13.00	19.21	12.50	121.71	151741
+157	DEPARTAMENTO	Fly Tower																																		5	77.00	13.00	19.21	12.50	121.71	255354
+158	DEPARTAMENTO	Fly Tower																																		6	77.00	13.00	19.21	12.50	121.71	258968
+159	DEPARTAMENTO	Fly Tower																																		7	77.00	13.00	19.21	12.50	121.71	262581
+160	DEPARTAMENTO	Fly Tower																																		8	77.00	13.00	19.21	12.50	121.71	266195
+161	DEPARTAMENTO	Fly Tower																																		9	77.00	13.00	19.21	12.50	121.71	269808
+162	DEPARTAMENTO	Fly Tower																																		10	77.00	13.00	19.21	12.50	121.71	273422
+163	DEPARTAMENTO	Fly Tower																																		11	77.00	13.00	19.21	12.50	121.71	277035
+164	DEPARTAMENTO	Fly Tower																																		12	77.00	13.00	19.21	12.50	121.71	280649
+165	DEPARTAMENTO	Fly Tower																																		13	77.00	13.00	19.21	12.50	121.71	284262
+166	DEPARTAMENTO	Fly Tower																																		14	77.00	13.00	19.21	12.50	121.71	287876
+167	DEPARTAMENTO	Fly Tower																																		16	77.00	13.00	19.21	12.50	121.71	410000
+168	DEPARTAMENTO	Fly Tower																																		1	64.00	6.00	14.80	10.50	95.30	181500
+169	DEPARTAMENTO	Fly Tower																																		2	64.00	6.00	14.80	10.50	95.30	184223
+170	DEPARTAMENTO	Fly Tower																																		3	64.00	6.00	14.80	10.50	95.30	186945
+171	DEPARTAMENTO	Fly Tower																																		4	64.00	6.00	14.80	10.50	95.30	189668
+172	DEPARTAMENTO	Fly Tower																																		5	64.00	6.00	14.80	10.50	95.30	192390
+173	DEPARTAMENTO	Fly Tower																																		6	64.00	6.00	14.80	10.50	95.30	195113
+174	DEPARTAMENTO	Fly Tower																																		7	64.00	6.00	14.80	10.50	95.30	197835
+175	DEPARTAMENTO	Fly Tower																																		8	64.00	6.00	14.80	10.50	95.30	200558
+176	DEPARTAMENTO	Fly Tower																																		9	64.00	6.00	14.80	10.50	95.30	203280
+177	DEPARTAMENTO	Fly Tower																																		10	64.00	6.00	14.80	10.50	95.30	206003
+178	DEPARTAMENTO	Fly Tower																																		11	64.00	6.00	14.80	10.50	95.30	208725
+179	DEPARTAMENTO	Fly Tower																																		12	64.00	6.00	14.80	10.50	95.30	211448
+180	DEPARTAMENTO	Fly Tower																																		13	64.00	6.00	14.80	10.50	95.30	214170
+181	DEPARTAMENTO	Fly Tower																																		14	64.00	6.00	14.80	10.50	95.30	216893
+182	DEPARTAMENTO	Fly Tower																																		15	64.00	6.00	14.80	10.50	95.30	234400
+183	DEPARTAMENTO	Fly Tower																																		16	64.00	6.00	14.80	10.50	95.30	202675
+184	DEPARTAMENTO	Fly Tower																																		1	62.00	6.00	13.95	12.50	94.45	181500
+185	DEPARTAMENTO	Fly Tower																																		2	62.00	6.00	13.95	12.50	94.45	184223
+186	DEPARTAMENTO	Fly Tower																																		3	62.00	6.00	13.95	12.50	94.45	186945
+187	DEPARTAMENTO	Fly Tower																																		4	62.00	6.00	13.95	12.50	94.45	189668
+188	DEPARTAMENTO	Fly Tower																																		5	62.00	6.00	13.95	12.50	94.45	192390
+189	DEPARTAMENTO	Fly Tower																																		6	62.00	6.00	13.95	12.50	94.45	195113
+190	DEPARTAMENTO	Fly Tower																																		7	62.00	6.00	13.95	12.50	94.45	197835
+191	DEPARTAMENTO	Fly Tower																																		8	62.00	6.00	13.95	12.50	94.45	200558
+192	DEPARTAMENTO	Fly Tower																																		9	62.00	6.00	13.95	12.50	94.45	203280
+193	DEPARTAMENTO	Fly Tower																																		10	62.00	6.00	13.95	12.50	94.45	206003
+194	DEPARTAMENTO	Fly Tower																																		11	62.00	6.00	13.95	12.50	94.45	208725
+195	DEPARTAMENTO	Fly Tower																																		12	62.00	6.00	13.95	12.50	94.45	211448
+196	DEPARTAMENTO	Fly Tower																																		13	62.00	6.00	13.95	12.50	94.45	214170
+197	DEPARTAMENTO	Fly Tower																																		14	62.00	6.00	13.95	12.50	94.45	216893
+198	CARACTERISTICAS	Torre One (I)	24	192	SI	SI	N	N	SI	SI	SI	N	N	N	N	SI	N	N	N	SI	SI	N	SI	N	N	N	N	N	N	N	N	N	N	N	N						0.00	
+199	DEPARTAMENTO	Torre One (I)																																		2	98.30	22.00	14.70	11.00	146.00	343000
+200	DEPARTAMENTO	Torre One (I)																																		3	98.30	22.00	14.70	11.00	146.00	347000
+201	DEPARTAMENTO	Torre One (I)																																		4	98.30	22.00	14.70	11.00	146.00	352000
+202	DEPARTAMENTO	Torre One (I)																																		2	98.30	22.00	14.70	11.00	146.00	372000
+203	DEPARTAMENTO	Torre One (I)																																		3	98.30	22.00	14.70	11.00	146.00	377000
+204	DEPARTAMENTO	Torre One (I)																																		4	98.30	22.00	14.70	11.00	146.00	382000
+205	DEPARTAMENTO	Torre One (I)																																		1	61.80	4.20	8.00	11.00	85.00	185000
+206	DEPARTAMENTO	Torre One (I)																																		2	61.80	4.20	8.00	11.00	85.00	188000
+207	DEPARTAMENTO	Torre One (I)																																		3	61.80	4.20	8.00	11.00	85.00	191000
+208	DEPARTAMENTO	Torre One (I)																																		4	61.80	4.20	8.00	11.00	85.00	194000
+209	DEPARTAMENTO	Torre One (I)																																		5	61.80	4.20	8.00	11.00	85.00	197000
+210	DEPARTAMENTO	Torre One (I)																																		2	65.00	6.50	8.50	11.00	91.00	220000
+211	DEPARTAMENTO	Torre One (I)																																		3	65.00	6.50	8.50	11.00	91.00	223000
+212	DEPARTAMENTO	Torre One (I)																																		4	65.00	6.50	8.50	11.00	91.00	226000
+213	DEPARTAMENTO	Torre One (I)																																		5	65.00	6.50	8.50	11.00	91.00	229000
+214	DEPARTAMENTO	Torre One (I)																																		6	65.00	6.50	8.50	11.00	91.00	231000
+215	CARACTERISTICAS	Ocean Drive 2	17	136	SI	SI	N	N	SI	SI	SI	N	SI	SI	SI	SI	SI	SI	N	N	N	N	SI	N	N	SI	N	N	N	N	N	SI	SI	N	SI						0.00	
+216	DEPARTAMENTO	Ocean Drive 2																																		4	49.62		8.97	11.00	69.59	163000
+217	DEPARTAMENTO	Ocean Drive 2																																		5	50.62		9.97	11.00	71.59	168000
+218	DEPARTAMENTO	Ocean Drive 2																																		6	51.62		10.97	11.00	73.59	173000
+219	DEPARTAMENTO	Ocean Drive 2																																		7	52.62		11.97	11.00	75.59	178000
+220	DEPARTAMENTO	Ocean Drive 2																																		20	103.50	12.00	16.00	11.00	142.50	421000
+221	DEPARTAMENTO	Ocean Drive 2																																		19	103.50	12.00	16.00	11.00	142.50	415000
+222	DEPARTAMENTO	Ocean Drive 2																																		18	103.50	12.00	16.00	11.00	142.50	409000
+223	DEPARTAMENTO	Ocean Drive 2																																		9	103.50	12.00	16.00	11.00	142.50	361000
+224	DEPARTAMENTO	Ocean Drive 2																																		19	75.70	7.60	11.40	11.00	105.70	297000
+225	DEPARTAMENTO	Ocean Drive 2																																		18	75.70	7.60	11.40	11.00	105.70	293000
+226	DEPARTAMENTO	Ocean Drive 2																																		17	75.70	7.60	11.40	11.00	105.70	289000
+227	DEPARTAMENTO	Ocean Drive 2																																		19	79.40	8.20	12.00	11.00	110.60	319000
+228	DEPARTAMENTO	Ocean Drive 2																																		18	80.40	9.20	13.00	11.00	113.60	315000
+229	DEPARTAMENTO	Ocean Drive 2																																		17	81.40	10.20	14.00	11.00	116.60	311000
+230	DEPARTAMENTO	Ocean Drive 2																																		13	82.40	11.20	15.00	11.00	119.60	307000
+231	DEPARTAMENTO	Ocean Drive 2																																		11	83.40	12.20	16.00	11.00	122.60	288000
+232	DEPARTAMENTO	Ocean Drive 2																																		19	55.50	6.70	9.00	11.00	82.20	249000
+233	DEPARTAMENTO	Ocean Drive 2																																		18	55.50	6.70	9.00	11.00	82.20	246000
+234	DEPARTAMENTO	Ocean Drive 2																																		17	55.50	6.70	9.00	11.00	82.20	243000
+235	DEPARTAMENTO	Ocean Drive 2																																		16	55.50	6.70	9.00	11.00	82.20	240000
+236	DEPARTAMENTO	Ocean Drive 2																																		11	55.50	6.70	9.00	11.00	82.20	225000
+237	CARACTERISTICAS	Chronos	14	136	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	SI	SI	SI	SI	SI	SI	N	SI	SI	N	N	N	N	N						0.00	
+238	DEPARTAMENTO	Chronos																																		1	73.63	24.22	10.74	12.50	121.09	278540
+239	DEPARTAMENTO	Chronos																																		5	73.63	24.22	10.74	12.50	121.09	316523
+240	DEPARTAMENTO	Chronos																																		7	73.63	24.22	10.74	12.50	121.09	329183
+241	DEPARTAMENTO	Chronos																																		11	73.63	24.22	10.74	12.50	121.09	354505
+242	DEPARTAMENTO	Chronos																																		2	45.70	10.40	6.90	12.50	75.50	183564
+243	DEPARTAMENTO	Chronos																																		4	45.70	10.40	6.90	12.50	75.50	195536
+244	DEPARTAMENTO	Chronos																																		5	45.70	10.40	6.90	12.50	75.50	199526
+245	DEPARTAMENTO	Chronos																																		7	45.70	10.40	6.90	12.50	75.50	207507
+246	DEPARTAMENTO	Chronos																																		10	45.70	10.40	6.90	12.50	75.50	219479
+247	DEPARTAMENTO	Chronos																																		2	45.85	10.40	6.90	10.13	73.28	179121
+248	DEPARTAMENTO	Chronos																																		4	45.85	10.40	6.90	10.13	73.28	190802
+249	DEPARTAMENTO	Chronos																																		6	45.85	10.40	6.90	10.13	73.28	198590
+250	DEPARTAMENTO	Chronos																																		7	45.85	10.40	6.90	10.13	73.28	202484
+251	DEPARTAMENTO	Chronos																																		9	45.85	10.40	6.90	10.13	73.28	210272
+252	DEPARTAMENTO	Chronos																																		11	45.85	10.40	6.90	10.13	73.28	218060
+253	DEPARTAMENTO	Chronos																																		13	45.85	10.40	6.90	10.13	73.28	233636
+254	DEPARTAMENTO	Chronos																																		1	73.54	6.14	9.97	12.50	102.15	237145
+255	DEPARTAMENTO	Chronos																																		7	73.54	6.14	9.97	12.50	102.15	280262
+256	DEPARTAMENTO	Chronos																																		9	73.54	6.14	9.97	12.50	102.15	291041
+257	DEPARTAMENTO	Chronos																																		10	73.54	6.14	9.97	12.50	102.15	296431
+258	DEPARTAMENTO	Chronos																																		12	73.54	6.14	9.97	12.50	102.15	312600
+259	DEPARTAMENTO	Chronos																																		13	73.54	6.14	9.97	12.50	102.15	323379
 260	CARACTERISTICAS	Artower	22	176	SI	SI	N	N	SI	SI	SI	N	N	SI	N	N	N	SI	N	N	N	N	SI	N	SI	N	N	N	N	N	N	N	N	SI	N							
-261	DEPARTAMENTO	Artower																																		17	64.15					295,000
-262	DEPARTAMENTO	Artower																																		16	64.15					290,000
-263	DEPARTAMENTO	Artower																																		14	64.15					280,000
-264	DEPARTAMENTO	Artower																																		13	64.15					275,000
-265	DEPARTAMENTO	Artower																																		12	64.15					267,000
-266	DEPARTAMENTO	Artower																																		11	64.15					263,000
-267	DEPARTAMENTO	Artower																																		10	64.15					259,000
-268	DEPARTAMENTO	Artower																																		2	64.15					221,000
-269	DEPARTAMENTO	Artower																																		1	64.15					215,000
-270	DEPARTAMENTO	Artower																																		17	64.15					295,000
-271	DEPARTAMENTO	Artower																																		16	64.15					290,000
-272	DEPARTAMENTO	Artower																																		15	64.15					285,000
-273	DEPARTAMENTO	Artower																																		14	64.15					280,000
-274	DEPARTAMENTO	Artower																																		13	64.15					275,000
-275	DEPARTAMENTO	Artower																																		7	64.15					251,000
-276	DEPARTAMENTO	Artower																																		6	64.15					245,000
-277	DEPARTAMENTO	Artower																																		5	64.15					239,000
-278	DEPARTAMENTO	Artower																																		4	64.15					233,000
-279	DEPARTAMENTO	Artower																																		3	64.15					227,000
-280	DEPARTAMENTO	Artower																																		2	64.15					221,000
-281	DEPARTAMENTO	Artower																																		1	64.15					215,000
-282	DEPARTAMENTO	Artower																																		15	173.55					566,500
-283	DEPARTAMENTO	Artower																																		14	173.55					561,000
-284	DEPARTAMENTO	Artower																																		13	173.55					555,500
-285	DEPARTAMENTO	Artower																																		12	173.55					550,000
-286	DEPARTAMENTO	Artower																																		11	173.55					544,500
-287	DEPARTAMENTO	Artower																																		10	173.55					539,000
-288	DEPARTAMENTO	Artower																																		9	173.55					533,500
-289	DEPARTAMENTO	Artower																																		8	173.55					528,000
-290	DEPARTAMENTO	Artower																																		7	173.55					522,500
-291	DEPARTAMENTO	Artower																																		6	173.55					517,000
-292	DEPARTAMENTO	Artower																																		5	173.55					511,500
-293	DEPARTAMENTO	Artower																																		4	173.55					506,000
-294	DEPARTAMENTO	Artower																																		3	173.55					500,500
-295	DEPARTAMENTO	Artower																																		2	173.55					495,000
-296	DEPARTAMENTO	Artower																																		1	173.55					480,000
-297	DEPARTAMENTO	Artower																																		15	72.05					295,000
-298	DEPARTAMENTO	Artower																																		14	72.05					280,000
-299	DEPARTAMENTO	Artower																																		13	72.05					275,000
-300	DEPARTAMENTO	Artower																																		10	72.05					261,000
-301	DEPARTAMENTO	Artower																																		9	72.05					259,000
-302	DEPARTAMENTO	Artower																																		8	72.05					256,000
-303	DEPARTAMENTO	Artower																																		7	72.05					252,000
-304	DEPARTAMENTO	Artower																																		6	72.05					248,000
-305	DEPARTAMENTO	Artower																																		5	72.05					244,000
-306	DEPARTAMENTO	Artower																																		4	72.05					240,000
-307	DEPARTAMENTO	Artower																																		3	72.05					236,000
-308	DEPARTAMENTO	Artower																																		2	72.05					232,000
-309	DEPARTAMENTO	Artower																																		1	72.05					228,000
+261	DEPARTAMENTO	Artower																																		17					64.15	295000
+262	DEPARTAMENTO	Artower																																		16					64.15	290000
+263	DEPARTAMENTO	Artower																																		14					64.15	280000
+264	DEPARTAMENTO	Artower																																		13					64.15	275000
+265	DEPARTAMENTO	Artower																																		12					64.15	267000
+266	DEPARTAMENTO	Artower																																		11					64.15	263000
+267	DEPARTAMENTO	Artower																																		10					64.15	259000
+268	DEPARTAMENTO	Artower																																		2					64.15	221000
+269	DEPARTAMENTO	Artower																																		1					64.15	215000
+270	DEPARTAMENTO	Artower																																		17					64.15	295000
+271	DEPARTAMENTO	Artower																																		16					64.15	290000
+272	DEPARTAMENTO	Artower																																		15					64.15	285000
+273	DEPARTAMENTO	Artower																																		14					64.15	280000
+274	DEPARTAMENTO	Artower																																		13					64.15	275000
+275	DEPARTAMENTO	Artower																																		7					64.15	251000
+276	DEPARTAMENTO	Artower																																		6					64.15	245000
+277	DEPARTAMENTO	Artower																																		5					64.15	239000
+278	DEPARTAMENTO	Artower																																		4					64.15	233000
+279	DEPARTAMENTO	Artower																																		3					64.15	227000
+280	DEPARTAMENTO	Artower																																		2					64.15	221000
+281	DEPARTAMENTO	Artower																																		1					64.15	215000
+282	DEPARTAMENTO	Artower																																		15					173.55	566500
+283	DEPARTAMENTO	Artower																																		14					173.55	561000
+284	DEPARTAMENTO	Artower																																		13					173.55	555500
+285	DEPARTAMENTO	Artower																																		12					173.55	550000
+286	DEPARTAMENTO	Artower																																		11					173.55	544500
+287	DEPARTAMENTO	Artower																																		10					173.55	539000
+288	DEPARTAMENTO	Artower																																		9					173.55	533500
+289	DEPARTAMENTO	Artower																																		8					173.55	528000
+290	DEPARTAMENTO	Artower																																		7					173.55	522500
+291	DEPARTAMENTO	Artower																																		6					173.55	517000
+292	DEPARTAMENTO	Artower																																		5					173.55	511500
+293	DEPARTAMENTO	Artower																																		4					173.55	506000
+294	DEPARTAMENTO	Artower																																		3					173.55	500500
+295	DEPARTAMENTO	Artower																																		2					173.55	495000
+296	DEPARTAMENTO	Artower																																		1					173.55	480000
+297	DEPARTAMENTO	Artower																																		15					72.05	295000
+298	DEPARTAMENTO	Artower																																		14					72.05	280000
+299	DEPARTAMENTO	Artower																																		13					72.05	275000
+300	DEPARTAMENTO	Artower																																		10					72.05	261000
+301	DEPARTAMENTO	Artower																																		9					72.05	259000
+302	DEPARTAMENTO	Artower																																		8					72.05	256000
+303	DEPARTAMENTO	Artower																																		7					72.05	252000
+304	DEPARTAMENTO	Artower																																		6					72.05	248000
+305	DEPARTAMENTO	Artower																																		5					72.05	244000
+306	DEPARTAMENTO	Artower																																		4					72.05	240000
+307	DEPARTAMENTO	Artower																																		3					72.05	236000
+308	DEPARTAMENTO	Artower																																		2					72.05	232000
+309	DEPARTAMENTO	Artower																																		1					72.05	228000
+310	DEPARTAMENTO	Wind Tower																																		5				13.00	142.33	265634
+311	DEPARTAMENTO	Wind Tower																																		6				13.00	170.32	332172
+312	DEPARTAMENTO	Wind Tower																																		8				13.00	170.32	349699
+313	DEPARTAMENTO	Wind Tower																																		8				13.00	142.33	286871
+314	DEPARTAMENTO	Wind Tower																																		9				13.00	170.32	370937
+315	DEPARTAMENTO	Wind Tower																																		9				13.00	170.32	361345
+316	DEPARTAMENTO	Wind Tower																																		9				13.00	142.33	294378
+317	DEPARTAMENTO	Wind Tower																																		11				13.00	170.32	395182
+318	DEPARTAMENTO	Wind Tower																																		11				13.00	142.33	318041
+319	DEPARTAMENTO	Wind Tower																																		12				13.00	142.33	326484
+320	DEPARTAMENTO	Wind Tower																																		12				13.00	132.82	290117
+321	DEPARTAMENTO	Wind Tower																																		12				13.00	132.82	290117
+322	DEPARTAMENTO	Wind Tower																																		13				13.00	170.32	416093
+323	DEPARTAMENTO	Wind Tower																																		13				13.00	142.33	335180
+324	DEPARTAMENTO	Wind Tower																																		13				13.00	132.82	298090
+325	DEPARTAMENTO	Wind Tower																																		13				13.00	132.82	298091
+326	DEPARTAMENTO	Wind Tower																																		14				13.00	142.33	344137
+327	DEPARTAMENTO	Wind Tower																																		14				13.00	132.82	306305
+328	DEPARTAMENTO	Wind Tower																																		14				13.00	132.82	306305
+329	DEPARTAMENTO	Wind Tower																																		15				13.00	170.32	440763
+330	DEPARTAMENTO	Wind Tower																																		15				13.00	142.33	353363
+331	DEPARTAMENTO	Wind Tower																																		15				13.00	132.82	314765
+332	DEPARTAMENTO	Wind Tower																																		15				13.00	132.82	314765
+333	DEPARTAMENTO	Wind Tower																																		15				13.00	129.51	326543
+334	DEPARTAMENTO	Wind Tower																																		16				13.00	170.32	452357
+335	DEPARTAMENTO	Wind Tower																																		16				13.00	142.33	362866
+336	DEPARTAMENTO	Wind Tower																																		16				13.00	129.51	323777
+337	DEPARTAMENTO	Wind Tower																																		16				13.00	132.82	323478
+338	DEPARTAMENTO	Wind Tower																																		16				13.00	132.82	323478
+339	DEPARTAMENTO	Wind Tower																																		17				13.00	170.32	464299
+340	DEPARTAMENTO	Wind Tower																																		17				13.00	142.33	375139
+341	DEPARTAMENTO	Wind Tower																																		17				13.00	129.51	332595
+342	DEPARTAMENTO	Wind Tower																																		17				13.00	132.82	332454
+343	DEPARTAMENTO	Wind Tower																																		17				13.00	132.82	332454
+344	DEPARTAMENTO	Wind Tower																																		17				13.00	129.51	344236
+345	DEPARTAMENTO	Wind Tower																																		18				13.00	170.32	476598
+346	DEPARTAMENTO	Wind Tower																																		18				13.00	142.33	385220
+347	DEPARTAMENTO	Wind Tower																																		18				13.00	129.51	341676
+348	DEPARTAMENTO	Wind Tower																																		18				13.00	132.82	341698
+349	DEPARTAMENTO	Wind Tower																																		18				13.00	132.82	341698
+350	DEPARTAMENTO	Wind Tower																																		18				13.00	129.51	353482
+351	DEPARTAMENTO	Wind Tower																																		18				13.00	142.33	398272
+352	DEPARTAMENTO	Wind Tower																																		19				13.00	170.32	502252
+353	DEPARTAMENTO	Wind Tower																																		19				13.00	170.32	489267
+354	DEPARTAMENTO	Wind Tower																																		19				13.00	142.33	395604
+355	DEPARTAMENTO	Wind Tower																																		19				13.00	129.51	351030
+356	DEPARTAMENTO	Wind Tower																																		19				13.00	132.82	351220
+357	DEPARTAMENTO	Wind Tower																																		19				13.00	132.82	351220
+358	DEPARTAMENTO	Wind Tower																																		19				13.00	129.51	363005
+359	DEPARTAMENTO	Wind Tower																																		20				13.00	170.32	502316
+360	DEPARTAMENTO	Wind Tower																																		20				13.00	142.33	406299
+361	DEPARTAMENTO	Wind Tower																																		20				13.00	129.51	363150
+362	DEPARTAMENTO	Wind Tower																																		20				13.00	132.82	363491
+363	DEPARTAMENTO	Wind Tower																																		20				13.00	132.82	363491
+364	DEPARTAMENTO	Wind Tower																																		20				13.00	129.51	375344
+365	DEPARTAMENTO	Wind Tower																																		21				13.00	170.32	530725
+366	DEPARTAMENTO	Wind Tower																																		21				13.00	170.32	516999
+367	DEPARTAMENTO	Wind Tower																																		21				13.00	142.33	417315
+368	DEPARTAMENTO	Wind Tower																																		21				13.00	129.51	373073
+369	DEPARTAMENTO	Wind Tower																																		21				13.00	132.82	373593
+370	DEPARTAMENTO	Wind Tower																																		21				13.00	132.82	373593
+371	DEPARTAMENTO	Wind Tower																																		21				13.00	129.51	385448
+372	DEPARTAMENTO	Wind Tower																																		21				13.00	142.33	430935
+373	DEPARTAMENTO	Wind Tower																																		22				13.00	170.32	544936
+374	DEPARTAMENTO	Wind Tower																																		22				13.00	170.32	530843
+375	DEPARTAMENTO	Wind Tower																																		22				13.00	142.33	428662
+376	DEPARTAMENTO	Wind Tower																																		22				13.00	129.51	383294
+377	DEPARTAMENTO	Wind Tower																																		22				13.00	132.82	383997
+378	DEPARTAMENTO	Wind Tower																																		22				13.00	132.82	383997
+379	DEPARTAMENTO	Wind Tower																																		22				13.00	129.51	395854
+380	DEPARTAMENTO	Wind Tower																																		22				13.00	142.33	442482
+381	DEPARTAMENTO	Wind Tower																																		23				13.00	205.18	659069
+382	DEPARTAMENTO	Wind Tower																																		23				13.00	229.38	682902
+383	DEPARTAMENTO	Wind Tower																																		24				13.00	285.87	843180
+384	CARACTERISTICAS	Wind Tower	24	190	SI	SI	N	N	SI	SI	SI	SI	SI	SI	N	N	N	SI	N	N	N	N	SI	N	N	N	N	N	N	N	N	N	N	N	N							
